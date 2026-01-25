@@ -1,63 +1,16 @@
-
+--NIQUE LES JUIF
 local Players = game:GetService("Players")
-local StarterGui = game:GetService("StarterGui")
-
-local _xrhytd7ao = function()
-    --NIQUE LES JUIF
-local Players = game:GetService((function()
-        local a={1077,1441,1298,1610,1350,1519,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
 local LocalPlayer = Players.LocalPlayer
-local RunService = game:GetService((function()
-        local a={1103,1558,1467,1116,1350,1519,1571,1402,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local UserInputService = game:GetService((function()
-        local a={1142,1532,1350,1519,986,1467,1493,1558,1545,1116,1350,1519,1571,1402,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local VirtualUser = game:GetService((function()
-        local a={1155,1402,1519,1545,1558,1298,1441,1142,1532,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local CoreGui = game:GetService((function()
-        local a={908,1480,1519,1350,960,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local VirtualUser = game:GetService("VirtualUser")
+local CoreGui = game:GetService("CoreGui")
 
 if _G.BalkanLoaded then return end
 _G.BalkanLoaded = true
 
 local MenuVisible = true
-local CurrentTab = (function()
-        local a={1038,1298,1402,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+local CurrentTab = "Main"
 
 -- Paramètres
 local Settings = {
@@ -97,298 +50,25 @@ local COULEUR_NOM_ENNEMI = Color3.fromRGB(255, 220, 100)
 local COULEUR_NOM_ALLIE = Color3.fromRGB(120, 255, 220)
 
 -- partie aimbot head ect ..
-local PartieVisee = (function()
-        local a={1129,3079,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
-local optionsParties = {(function()
-        local a={1129,3079,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1129,1480,1519,1532,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={908,1480,1558};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={934,1493,1298,1558,1441,1350,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1038,1298,1402,1467,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={934,1493,1298,1558,1441,1350,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1038,1298,1402,1467,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={908,1558,1402,1532,1532,1350,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1038,1480,1441,1441,1350,1545,453,921,1519,1480,1402,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={908,1558,1402,1532,1532,1350,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1038,1480,1441,1441,1350,1545,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1103,739,453,934,1129,453,1103,674,726,453,1077,934,1103,1116,1064};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()}
+local PartieVisee = "Tête"
+local optionsParties = {"Tête", "Torse", "Cou", "Epaule Droite", "Main Droite", "Epaule Gauche", "Main Gauche", "Cuisse Droite", "Mollet Droit", "Cuisse Gauche", "Mollet Gauche", "R6 ET R15 PERSO"}
 
 local function getPartNames(part)
     local map = {
-        [(function()
-        local a={1129,3079,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={973,1350,1298,1337};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1129,1480,1519,1532,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1142,1493,1493,1350,1519,1129,1480,1519,1532,1480};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), (function()
-        local a={1129,1480,1519,1532,1480};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={908,1480,1558};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1051,1350,1324,1428};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={934,1493,1298,1558,1441,1350,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1103,1402,1376,1389,1545,1142,1493,1493,1350,1519,882,1519,1454};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1038,1298,1402,1467,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1103,1402,1376,1389,1545,1025,1480,1584,1350,1519,882,1519,1454};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={934,1493,1298,1558,1441,1350,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1025,1350,1363,1545,1142,1493,1493,1350,1519,882,1519,1454};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1038,1298,1402,1467,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1025,1350,1363,1545,1025,1480,1584,1350,1519,882,1519,1454};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={908,1558,1402,1532,1532,1350,453,921,1519,1480,1402,1545,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1103,1402,1376,1389,1545,1142,1493,1493,1350,1519,1025,1350,1376};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1038,1480,1441,1441,1350,1545,453,921,1519,1480,1402,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1103,1402,1376,1389,1545,1025,1480,1584,1350,1519,1025,1350,1376};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={908,1558,1402,1532,1532,1350,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1025,1350,1363,1545,1142,1493,1493,1350,1519,1025,1350,1376};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1038,1480,1441,1441,1350,1545,453,960,1298,1558,1324,1389,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={1025,1350,1363,1545,1025,1480,1584,1350,1519,1025,1350,1376};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()},
-        [(function()
-        local a={1103,739,453,934,1129,453,1103,674,726,453,1077,934,1103,1116,1064};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = {(function()
-        local a={973,1558,1454,1298,1467,1480,1402,1337,1103,1480,1480,1545,1077,1298,1519,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()}
+        ["Tête"] = {"Head"},
+        ["Torse"] = {"UpperTorso", "Torso"},
+        ["Cou"] = {"Neck"},
+        ["Epaule Droite"] = {"RightUpperArm"},
+        ["Main Droite"] = {"RightLowerArm"},
+        ["Epaule Gauche"] = {"LeftUpperArm"},
+        ["Main Gauche"] = {"LeftLowerArm"},
+        ["Cuisse Droite"] = {"RightUpperLeg"},
+        ["Mollet Droit"] = {"RightLowerLeg"},
+        ["Cuisse Gauche"] = {"LeftUpperLeg"},
+        ["Mollet Gauche"] = {"LeftLowerLeg"},
+        ["R6 ET R15 PERSO"] = {"HumanoidRootPart"}
     }
-    return map[part] or {(function()
-        local a={973,1350,1298,1337};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()}
+    return map[part] or {"Head"}
 end
 
 -- Téléport / Follow player
@@ -397,243 +77,89 @@ local FollowConnection = nil
 local FollowToggle = false
 
 -- GUI
-local ScreenGui = Instance.new((function()
-        local a={1116,1324,1519,1350,1350,1467,960,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-ScreenGui.Name = (function()
-        local a={895,1298,1441,1428,1298,1467,1181,1064,921};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "BalkanXOD"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.IgnoreGuiInset = true
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.DisplayOrder = 2147483647
 ScreenGui.Parent = CoreGui
 
-local MainFrame = Instance.new((function()
-        local a={947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+local MainFrame = Instance.new("Frame")
 MainFrame.Size = UDim2.new(0, 520, 0, 680)
 MainFrame.Position = UDim2.new(0.5, -260, 0.5, -340)
 MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 40)
 MainFrame.BorderSizePixel = 0
 MainFrame.ZIndex = 10000
 MainFrame.Parent = ScreenGui
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame).CornerRadius = UDim.new(0, 12)
+Instance.new("UICorner", MainFrame).CornerRadius = UDim.new(0, 12)
 
 -- Barre titre à la zeub pas d'idée mais trql
-local TitleBar = Instance.new((function()
-        local a={947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame)
+local TitleBar = Instance.new("Frame", MainFrame)
 TitleBar.Size = UDim2.new(1,0,0,48)
 TitleBar.BackgroundColor3 = Color3.fromRGB(35,35,60)
 TitleBar.ZIndex = 1000001
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TitleBar).CornerRadius = UDim.new(0,12)
+Instance.new("UICorner", TitleBar).CornerRadius = UDim.new(0,12)
 
-local Title = Instance.new((function()
-        local a={1129,1350,1597,1545,1025,1298,1311,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TitleBar)
+local Title = Instance.new("TextLabel", TitleBar)
 Title.Size = UDim2.new(1,-100,1,0)
 Title.Position = UDim2.new(0,15,0,0)
 Title.BackgroundTransparency = 1
-Title.Text = (function()
-        local a={895,1298,1441,1428,1298,1467,453,1181,1064,921,453,1155,687,453,1324,1519,3066,1350,453,1493,1298,1519,453,1532,1298,1441,1558,1545,1415,1298,1402,1454,1350,1441,1350,1532,1428,1298,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+Title.Text = "Balkan XOD V2 crée par salutjaimeleskar"
 Title.TextColor3 = Color3.fromRGB(255,200,120)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 24
 Title.TextXAlignment = Enum.TextXAlignment.Left
 
-local CloseBtn = Instance.new((function()
-        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TitleBar)
+local CloseBtn = Instance.new("TextButton", TitleBar)
 CloseBtn.Size = UDim2.new(0,40,0,40)
 CloseBtn.Position = UDim2.new(1,-50,0,4)
 CloseBtn.BackgroundColor3 = Color3.fromRGB(200,50,50)
-CloseBtn.Text = (function()
-        local a={1181};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+CloseBtn.Text = "X"
 CloseBtn.TextColor3 = Color3.new(1,1,1)
 CloseBtn.Font = Enum.Font.GothamBold
 CloseBtn.TextSize = 20
 CloseBtn.ZIndex = 1000002
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), CloseBtn).CornerRadius = UDim.new(0,8)
+Instance.new("UICorner", CloseBtn).CornerRadius = UDim.new(0,8)
 
 -- Onglets
-local TabsFrame = Instance.new((function()
-        local a={947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame)
+local TabsFrame = Instance.new("Frame", MainFrame)
 TabsFrame.Size = UDim2.new(1,0,0,40)
 TabsFrame.Position = UDim2.new(0,0,0,48)
 TabsFrame.BackgroundTransparency = 1
 
-local MainTabBtn = Instance.new((function()
-        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TabsFrame)
+local MainTabBtn = Instance.new("TextButton", TabsFrame)
 MainTabBtn.Size = UDim2.new(0.33,-5,1,-4)
 MainTabBtn.Position = UDim2.new(0,5,0,2)
 MainTabBtn.BackgroundColor3 = Color3.fromRGB(0,180,255)
-MainTabBtn.Text = (function()
-        local a={1038,882,986,1051};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+MainTabBtn.Text = "MAIN"
 MainTabBtn.TextColor3 = Color3.new(1,1,1)
 MainTabBtn.Font = Enum.Font.GothamBold
 MainTabBtn.TextSize = 16
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainTabBtn).CornerRadius = UDim.new(0,8)
+Instance.new("UICorner", MainTabBtn).CornerRadius = UDim.new(0,8)
 
-local AutoPaffTabBtn = Instance.new((function()
-        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TabsFrame)
+local AutoPaffTabBtn = Instance.new("TextButton", TabsFrame)
 AutoPaffTabBtn.Size = UDim2.new(0.33,-5,1,-4)
 AutoPaffTabBtn.Position = UDim2.new(0.33,0,0,2)
 AutoPaffTabBtn.BackgroundColor3 = Color3.fromRGB(35,35,50)
-AutoPaffTabBtn.Text = (function()
-        local a={882,1142,1129,1064,1077,882,947,947};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+AutoPaffTabBtn.Text = "AUTOPAFF"
 AutoPaffTabBtn.TextColor3 = Color3.new(1,1,1)
 AutoPaffTabBtn.Font = Enum.Font.GothamBold
 AutoPaffTabBtn.TextSize = 16
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), AutoPaffTabBtn).CornerRadius = UDim.new(0,8)
+Instance.new("UICorner", AutoPaffTabBtn).CornerRadius = UDim.new(0,8)
 
-local TeleportTabBtn = Instance.new((function()
-        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TabsFrame)
+local TeleportTabBtn = Instance.new("TextButton", TabsFrame)
 TeleportTabBtn.Size = UDim2.new(0.33,-5,1,-4)
 TeleportTabBtn.Position = UDim2.new(0.66,0,0,2)
 TeleportTabBtn.BackgroundColor3 = Color3.fromRGB(35,35,50)
-TeleportTabBtn.Text = (function()
-        local a={1129,934,1025,934,1077,1064,1103,1129,934,1103};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+TeleportTabBtn.Text = "TELEPORTER"
 TeleportTabBtn.TextColor3 = Color3.new(1,1,1)
 TeleportTabBtn.Font = Enum.Font.GothamBold
 TeleportTabBtn.TextSize = 16
-Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TeleportTabBtn).CornerRadius = UDim.new(0,8)
+Instance.new("UICorner", TeleportTabBtn).CornerRadius = UDim.new(0,8)
 
 -- Contde paff
-local MainContent = Instance.new((function()
-        local a={1116,1324,1519,1480,1441,1441,1402,1467,1376,947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame)
+local MainContent = Instance.new("ScrollingFrame", MainFrame)
 MainContent.Size = UDim2.new(1,-20,1,-100)
 MainContent.Position = UDim2.new(0,10,0,100)
 MainContent.BackgroundTransparency = 1
@@ -641,27 +167,13 @@ MainContent.ScrollBarThickness = 6
 MainContent.Visible = true
 MainContent.CanvasSize = UDim2.new(0,0,0,4500)
 
-local AutoPaffContent = Instance.new((function()
-        local a={947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame)
+local AutoPaffContent = Instance.new("Frame", MainFrame)
 AutoPaffContent.Size = UDim2.new(1,-20,1,-100)
 AutoPaffContent.Position = UDim2.new(0,10,0,100)
 AutoPaffContent.BackgroundTransparency = 1
 AutoPaffContent.Visible = false
 
-local TeleportContent = Instance.new((function()
-        local a={1116,1324,1519,1480,1441,1441,1402,1467,1376,947,1519,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainFrame)
+local TeleportContent = Instance.new("ScrollingFrame", MainFrame)
 TeleportContent.Size = UDim2.new(1,-20,1,-100)
 TeleportContent.Position = UDim2.new(0,10,0,100)
 TeleportContent.BackgroundTransparency = 1
@@ -669,25 +181,11 @@ TeleportContent.ScrollBarThickness = 6
 TeleportContent.Visible = false
 TeleportContent.CanvasSize = UDim2.new(0,0,0,2000)
 
-local MainList = Instance.new((function()
-        local a={1142,986,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), MainContent)
+local MainList = Instance.new("UIListLayout", MainContent)
 MainList.Padding = UDim.new(0,10)
 MainList.SortOrder = Enum.SortOrder.LayoutOrder
 
-local TeleportList = Instance.new((function()
-        local a={1142,986,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), TeleportContent)
+local TeleportList = Instance.new("UIListLayout", TeleportContent)
 TeleportList.Padding = UDim.new(0,8)
 TeleportList.SortOrder = Enum.SortOrder.LayoutOrder
 
@@ -758,307 +256,175 @@ UserInputService.InputBegan:Connect(function(input)
 end)
 
 -- Watermark amis
-local Watermark = Instance.new((function()
-        local a={1129,1350,1597,1545,1025,1298,1311,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+local Watermark = Instance.new("TextLabel")
 Watermark.AnchorPoint = Vector2.new(1,1)
 Watermark.Position = UDim2.new(1, -15, 1, -15)
 Watermark.Size = UDim2.new(0, 220, 0, 180)
 Watermark.BackgroundTransparency = 0.4
 Watermark.BackgroundColor3 = Color3.fromRGB(15,15,35)
-Watermark.Text = "(function()
-        local a={167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,765,661,609,453,687,726,726,609,453,674,765,661,570,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,726,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,1116,1350,1454,1402,1311,1480,1441,1337,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1025,1350,1363,1545,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,1194,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1194,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1129,1480,1493,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,1168,1519,1298,1493,1493,1350,1337,453,830,453,1545,1519,1558,1350,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1207,986,1467,1337,1350,1597,453,830,453,778,778,778,778,778,778,167,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1077,1298,1519,1350,1467,1545,453,830,453,1116,1324,1519,1350,1350,1467,960,1558,1402,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1168,1298,1545,1350,1519,1454,1298,1519,1428,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding(function()
-        local a={609,453,1168,1298,1545,1350,1519,1454,1298,1519,1428,570,635,1077,1298,1337,1337,1402,1467,1376,1025,1350,1363,1545,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,661,570,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding(function()
-        local a={609,453,1168,1298,1545,1350,1519,1454,1298,1519,1428,570,635,1077,1298,1337,1337,1402,1467,1376,1129,1480,1493,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,1142,1493,1337,1298,1545,1350,1168,1298,1545,1350,1519,1454,1298,1519,1428,557,570,167,453,453,453,453,1441,1480,1324,1298,1441,453,1545,1350,1597,1545,453,830,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Amis ((function()
-        local a={453,635,635,453,492,1025,1402,1532,1545,1350,882,1454,1402,1532,453,635,635,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())\n(function()
-        local a={167,453,453,453,453,1402,1363,453,492,1025,1402,1532,1545,1350,882,1454,1402,1532,453,830,830,453,661,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,1545,1350,1597,1545,453,830,453,1545,1350,1597,1545,453,635,635,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Aucun fdp ajouté(function()
-        local a={167,453,453,453,453,1350,1441,1532,1350,167,453,453,453,453,453,453,453,453,1363,1480,1519,453,1272,609,453,1467,1298,1454,1350,453,1402,1467,453,1402,1493,1298,1402,1519,1532,557,1025,1402,1532,1545,1350,882,1454,1402,1532,570,453,1337,1480,167,453,453,453,453,453,453,453,453,453,453,453,453,1545,1350,1597,1545,453,830,453,1545,1350,1597,1545,453,635,635,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()• (function()
-        local a={453,635,635,453,1467,1298,1454,1350,453,635,635,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()\n(function()
-        local a={167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,453,453,453,453,1168,1298,1545,1350,1519,1454,1298,1519,1428,635,1129,1350,1597,1545,453,830,453,1545,1350,1597,1545,167,1350,1467,1337,167,167,622,622,453,1142,986,453,973,1350,1441,1493,1350,1519,1532,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1493,1298,1519,1350,1467,1545,609,453,1467,1480,1454,609,453,1337,1350,1363,1298,1558,1545,609,453,1324,1298,1441,1441,1311,1298,1324,1428,570,167,453,453,453,453,1441,1480,1324,1298,1441,453,1363,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,453,1493,1298,1519,1350,1467,1545,570,167,453,453,453,453,1363,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,726,570,167,453,453,453,453,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,726,609,700,726,609,726,661,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1363,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel(function()
-        local a={609,1363,570,167,453,453,453,453,1441,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,726,609,661,609,674,609,661,570,167,453,453,453,453,1441,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,453,453,453,453,1441,635,1129,1350,1597,1545,453,830,453,1467,1480,1454,167,453,453,453,453,1441,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1441,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,752,167,453,453,453,453,1441,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,1116,1350,1454,1402,1311,1480,1441,1337,167,453,453,453,453,1441,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1025,1350,1363,1545,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding(function()
-        local a={609,1441,570,635,1077,1298,1337,1337,1402,1467,1376,1025,1350,1363,1545,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,726,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1311,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={609,1363,570,167,453,453,453,453,1311,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,700,609,661,609,661,635,752,726,609,661,570,167,453,453,453,453,1311,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,765,609,661,609,661,635,674,687,726,609,661,570,167,453,453,453,453,1311,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,1337,1350,1363,1298,1558,1545,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,661,609,674,765,661,609,687,726,726,570,453,1480,1519,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,778,661,609,778,661,609,778,661,570,167,453,453,453,453,1311,635,1129,1350,1597,1545,453,830,453,1337,1350,1363,1298,1558,1545,453,1298,1467,1337,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()OUI(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()NON(function()
-        local a={167,453,453,453,453,1311,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1311,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,453,453,453,453,1311,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner",b).CornerRadius = UDim.new(0,6)
+Watermark.Text = ""
+Watermark.TextColor3 = Color3.fromRGB(180, 255, 180)
+Watermark.TextSize = 15
+Watermark.Font = Enum.Font.GothamSemibold
+Watermark.TextXAlignment = Enum.TextXAlignment.Left
+Watermark.TextYAlignment = Enum.TextYAlignment.Top
+Watermark.TextWrapped = true
+Watermark.ZIndex = 999999
+Watermark.Parent = ScreenGui
+Instance.new("UICorner", Watermark).CornerRadius = UDim.new(0,8)
+Instance.new("UIPadding", Watermark).PaddingLeft = UDim.new(0,10)
+Instance.new("UIPadding", Watermark).PaddingTop = UDim.new(0,8)
+
+local function UpdateWatermark()
+    local text = "Amis (" .. #ListeAmis .. ")\n"
+    if #ListeAmis == 0 then
+        text = text .. "Aucun fdp ajouté"
+    else
+        for _, name in ipairs(ListeAmis) do
+            text = text .. "• " .. name .. "\n"
+        end
+    end
+    Watermark.Text = text
+end
+
+-- UI Helpers
+local function AddToggle(parent, nom, defaut, callback)
+    local f = Instance.new("Frame", parent)
+    f.Size = UDim2.new(1,0,0,45)
+    f.BackgroundColor3 = Color3.fromRGB(35,35,50)
+    Instance.new("UICorner",f).CornerRadius = UDim.new(0,8)
+
+    local l = Instance.new("TextLabel",f)
+    l.Size = UDim2.new(0.65,0,1,0)
+    l.BackgroundTransparency = 1
+    l.Text = nom
+    l.TextColor3 = Color3.new(1,1,1)
+    l.TextSize = 17
+    l.Font = Enum.Font.GothamSemibold
+    l.TextXAlignment = Enum.TextXAlignment.Left
+    Instance.new("UIPadding",l).PaddingLeft = UDim.new(0,15)
+
+    local b = Instance.new("TextButton",f)
+    b.Size = UDim2.new(0.3,0,0.75,0)
+    b.Position = UDim2.new(0.68,0,0.125,0)
+    b.BackgroundColor3 = defaut and Color3.fromRGB(0,180,255) or Color3.fromRGB(90,90,90)
+    b.Text = defaut and "OUI" or "NON"
+    b.TextColor3 = Color3.new(1,1,1)
+    b.Font = Enum.Font.GothamBold
+    b.TextSize = 16
+    Instance.new("UICorner",b).CornerRadius = UDim.new(0,6)
 
     local etat = defaut
     b.MouseButton1Click:Connect(function()
         etat = not etat
         b.BackgroundColor3 = etat and Color3.fromRGB(0,180,255) or Color3.fromRGB(90,90,90)
-        b.Text = etat and "OUI(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()NON(function()
-        local a={167,453,453,453,453,453,453,453,453,1324,1298,1441,1441,1311,1298,1324,1428,557,1350,1545,1298,1545,570,167,453,453,453,453,1350,1467,1337,570,167,1350,1467,1337,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1493,1298,1519,1350,1467,1545,609,453,1467,1480,1454,609,453,1454,1402,1467,1571,609,453,1454,1298,1597,1571,609,453,1337,1350,1363,1298,1558,1545,609,453,1324,1298,1441,1441,1311,1298,1324,1428,609,453,1363,1480,1519,1454,1298,1545,570,167,453,453,453,453,1441,1480,1324,1298,1441,453,1363,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,453,1493,1298,1519,1350,1467,1545,570,167,453,453,453,453,1363,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,739,726,570,167,453,453,453,453,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,726,609,700,726,609,726,661,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1363,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel(function()
-        local a={609,1363,570,167,453,453,453,453,1441,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,609,661,609,661,635,700,726,609,661,570,167,453,453,453,453,1441,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,453,453,453,453,1441,635,1129,1350,1597,1545,453,830,453,1467,1480,1454,167,453,453,453,453,1441,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1441,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,453,453,453,453,1441,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,453,453,453,453,1441,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1025,1350,1363,1545,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding(function()
-        local a={609,1441,570,635,1077,1298,1337,1337,1402,1467,1376,1025,1350,1363,1545,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,726,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1571,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel(function()
-        local a={609,1363,570,167,453,453,453,453,1571,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,700,726,609,661,609,661,635,700,726,609,661,570,167,453,453,453,453,1571,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,700,609,661,609,661,609,661,570,167,453,453,453,453,1571,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,453,453,453,453,1571,635,1129,1350,1597,1545,453,830,453,1532,1545,1519,1402,1467,1376,635,1363,1480,1519,1454,1298,1545,557,1363,1480,1519,1454,1298,1545,453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.0f(function()
-        local a={609,453,1337,1350,1363,1298,1558,1545,570,167,453,453,453,453,1571,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,765,661,609,674,765,661,609,687,726,726,570,167,453,453,453,453,1571,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,453,453,453,453,1571,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,453,453,453,453,1571,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1103,1402,1376,1389,1545,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1298,1519,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,1363,570,167,453,453,453,453,1311,1298,1519,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,622,700,661,609,661,609,674,661,570,167,453,453,453,453,1311,1298,1519,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,674,726,609,661,609,713,726,570,167,453,453,453,453,1311,1298,1519,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,739,661,609,739,661,609,765,661,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1311,1298,1519,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,726,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1363,1402,1441,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,1311,1298,1519,570,167,453,453,453,453,1363,1402,1441,1441,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,557,1337,1350,1363,1298,1558,1545,622,1454,1402,1467,1571,570,648,557,1454,1298,1597,1571,622,1454,1402,1467,1571,570,609,661,609,674,609,661,570,167,453,453,453,453,1363,1402,1441,1441,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,661,609,674,765,661,609,687,726,726,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1363,1402,1441,1441,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,726,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1337,1519,1298,1376,453,830,453,1363,1298,1441,1532,1350,167,453,453,453,453,1311,1298,1519,635,986,1467,1493,1558,1545,895,1350,1376,1298,1467,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1402,570,453,1402,1363,453,1402,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,453,830,830,453,934,1467,1558,1454,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,635,1038,1480,1558,1532,1350,895,1558,1545,1545,1480,1467,674,453,1545,1389,1350,1467,453,1337,1519,1298,1376,453,830,453,1545,1519,1558,1350,453,1350,1467,1337,453,1350,1467,1337,570,167,453,453,453,453,1311,1298,1519,635,986,1467,1493,1558,1545,934,1467,1337,1350,1337,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1402,570,453,1402,1363,453,1402,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,453,830,830,453,934,1467,1558,1454,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,635,1038,1480,1558,1532,1350,895,1558,1545,1545,1480,1467,674,453,1545,1389,1350,1467,453,1337,1519,1298,1376,453,830,453,1363,1298,1441,1532,1350,453,1350,1467,1337,453,1350,1467,1337,570,167,167,453,453,453,453,1142,1532,1350,1519,986,1467,1493,1558,1545,1116,1350,1519,1571,1402,1324,1350,635,986,1467,1493,1558,1545,908,1389,1298,1467,1376,1350,1337,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1402,570,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1337,1519,1298,1376,453,1480,1519,453,1402,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,453,1675,830,453,934,1467,1558,1454,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,635,1038,1480,1558,1532,1350,1038,1480,1571,1350,1454,1350,1467,1545,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1519,1350,1441,453,830,453,1454,1298,1545,1389,635,1324,1441,1298,1454,1493,557,557,1402,635,1077,1480,1532,1402,1545,1402,1480,1467,635,1181,453,622,453,1311,1298,1519,635,882,1311,1532,1480,1441,1558,1545,1350,1077,1480,1532,1402,1545,1402,1480,1467,635,1181,570,648,1311,1298,1519,635,882,1311,1532,1480,1441,1558,1545,1350,1116,1402,1623,1350,635,1181,609,453,661,609,674,570,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1571,1298,1441,453,830,453,1454,1402,1467,1571,453,596,453,1519,1350,1441,583,557,1454,1298,1597,1571,622,1454,1402,1467,1571,570,167,453,453,453,453,453,453,453,453,1363,1402,1441,1441,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,1519,1350,1441,609,661,609,674,609,661,570,167,453,453,453,453,453,453,453,453,1571,635,1129,1350,1597,1545,453,830,453,1532,1545,1519,1402,1467,1376,635,1363,1480,1519,1454,1298,1545,557,1363,1480,1519,1454,1298,1545,453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.0f(function()
-        local a={609,453,1571,1298,1441,570,167,453,453,453,453,453,453,453,453,1324,1298,1441,1441,1311,1298,1324,1428,557,1571,1298,1441,570,167,453,453,453,453,1350,1467,1337,570,167,1350,1467,1337,167,167,622,622,453,453,1493,1480,1558,1519,453,1324,1389,1480,1402,1532,1402,1519,453,1441,1298,453,1493,1298,1519,1545,1402,1350,453,1571,1402,1532,3066,1350,453,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,947,1519,1298,1454,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,453,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,570,167,1077,1298,1519,1545,1402,1350,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,726,570,167,1077,1298,1519,1545,1402,1350,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,726,609,700,726,609,726,661,570,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,947,1519,1298,1454,1350,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,1025,1298,1311,1350,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", PartieFrame)
+        b.Text = etat and "OUI" or "NON"
+        callback(etat)
+    end)
+end
+
+local function AddSlider(parent, nom, minv, maxv, defaut, callback, format)
+    local f = Instance.new("Frame", parent)
+    f.Size = UDim2.new(1,0,0,65)
+    f.BackgroundColor3 = Color3.fromRGB(35,35,50)
+    Instance.new("UICorner",f).CornerRadius = UDim.new(0,8)
+
+    local l = Instance.new("TextLabel",f)
+    l.Size = UDim2.new(0.6,0,0.35,0)
+    l.BackgroundTransparency = 1
+    l.Text = nom
+    l.TextColor3 = Color3.new(1,1,1)
+    l.TextSize = 16
+    l.Font = Enum.Font.Gotham
+    l.TextXAlignment = Enum.TextXAlignment.Left
+    Instance.new("UIPadding",l).PaddingLeft = UDim.new(0,15)
+
+    local v = Instance.new("TextLabel",f)
+    v.Size = UDim2.new(0.35,0,0.35,0)
+    v.Position = UDim2.new(0.63,0,0,0)
+    v.BackgroundTransparency = 1
+    v.Text = string.format(format or "%.0f", defaut)
+    v.TextColor3 = Color3.fromRGB(180,180,255)
+    v.TextSize = 16
+    v.Font = Enum.Font.Gotham
+    v.TextXAlignment = Enum.TextXAlignment.Right
+
+    local bar = Instance.new("Frame",f)
+    bar.Size = UDim2.new(1,-30,0,10)
+    bar.Position = UDim2.new(0,15,0,45)
+    bar.BackgroundColor3 = Color3.fromRGB(60,60,80)
+    Instance.new("UICorner",bar).CornerRadius = UDim.new(0,5)
+
+    local fill = Instance.new("Frame",bar)
+    fill.Size = UDim2.new((defaut-minv)/(maxv-minv),0,1,0)
+    fill.BackgroundColor3 = Color3.fromRGB(0,180,255)
+    Instance.new("UICorner",fill).CornerRadius = UDim.new(0,5)
+
+    local drag = false
+    bar.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then drag = true end end)
+    bar.InputEnded:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then drag = false end end)
+
+    UserInputService.InputChanged:Connect(function(i)
+        if not drag or i.UserInputType ~= Enum.UserInputType.MouseMovement then return end
+        local rel = math.clamp((i.Position.X - bar.AbsolutePosition.X)/bar.AbsoluteSize.X, 0,1)
+        local val = minv + rel*(maxv-minv)
+        fill.Size = UDim2.new(rel,0,1,0)
+        v.Text = string.format(format or "%.0f", val)
+        callback(val)
+    end)
+end
+
+--  pour choisir la partie visée 
+local PartieFrame = Instance.new("Frame", MainContent)
+PartieFrame.Size = UDim2.new(1,0,0,45)
+PartieFrame.BackgroundColor3 = Color3.fromRGB(35,35,50)
+Instance.new("UICorner", PartieFrame).CornerRadius = UDim.new(0,8)
+
+local PartieLabel = Instance.new("TextLabel", PartieFrame)
 PartieLabel.Size = UDim2.new(0.5,0,1,0)
 PartieLabel.BackgroundTransparency = 1
-PartieLabel.Text = (function()
-        local a={1077,1298,1519,1545,1402,1350,453,1571,1402,1532,3066,1350,453,1493,1298,1519,453,882,1402,1454,1311,1480,1545,453,791};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+PartieLabel.Text = "Partie visée par Aimbot :"
 PartieLabel.TextColor3 = Color3.new(1,1,1)
 PartieLabel.TextSize = 17
 PartieLabel.Font = Enum.Font.GothamSemibold
 PartieLabel.TextXAlignment = Enum.TextXAlignment.Left
-Instance.new("UIPadding(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,1025,1298,1311,1350,1441,570,635,1077,1298,1337,1337,1402,1467,1376,1025,1350,1363,1545,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,726,570,167,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,947,1519,1298,1454,1350,570,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,713,726,609,661,609,661,635,765,609,661,570,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,726,687,609,661,609,661,635,674,609,661,570,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,726,661,609,726,661,609,752,661,570,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,1129,1350,1597,1545,453,830,453,1077,1298,1519,1545,1402,1350,1155,1402,1532,1350,1350,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,895,1558,1545,1545,1480,1467,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,1155,1402,1532,1402,1311,1441,1350,453,830,453,1363,1298,1441,1532,1350,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ScrollingFrame(function()
-        local a={570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,713,726,609,661,609,661,609,687,661,661,570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,726,687,609,661,609,674,635,674,609,661,570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,661,609,700,661,609,713,726,570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441,453,830,453,661,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1116,1324,1519,1480,1441,1441,895,1298,1519,1129,1389,1402,1324,1428,1467,1350,1532,1532,453,830,453,713,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1155,1402,1532,1402,1311,1441,1350,453,830,453,1363,1298,1441,1532,1350,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1077,1298,1519,1350,1467,1545,453,830,453,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,167,1441,1480,1324,1298,1441,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIListLayout(function()
-        local a={609,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,635,1077,1298,1337,1337,1402,1467,1376,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,713,570,167,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,453,830,453,934,1467,1558,1454,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,167,167,1363,1480,1519,453,1272,609,453,1480,1493,1545,453,1402,1467,453,1402,1493,1298,1402,1519,1532,557,1480,1493,1545,1402,1480,1467,1532,1077,1298,1519,1545,1402,1350,1532,570,453,1337,1480,167,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1545,1467,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={570,167,453,453,453,453,1311,1545,1467,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,700,661,570,167,453,453,453,453,1311,1545,1467,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,713,661,609,713,661,609,739,661,570,167,453,453,453,453,1311,1545,1467,635,1129,1350,1597,1545,453,830,453,1480,1493,1545,167,453,453,453,453,1311,1545,1467,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1311,1545,1467,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,453,453,453,453,1311,1545,1467,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,453,453,453,453,1311,1545,1467,635,1077,1298,1519,1350,1467,1545,453,830,453,1077,1298,1519,1545,1402,1350,1025,1402,1532,1545,947,1519,1298,1454,1350,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner", btn).CornerRadius = UDim.new(0,4)
+Instance.new("UIPadding", PartieLabel).PaddingLeft = UDim.new(0,15)
+
+local PartieButton = Instance.new("TextButton", PartieFrame)
+PartieButton.Size = UDim2.new(0.45,0,0.8,0)
+PartieButton.Position = UDim2.new(0.52,0,0.1,0)
+PartieButton.BackgroundColor3 = Color3.fromRGB(50,50,70)
+PartieButton.Text = PartieVisee
+PartieButton.TextColor3 = Color3.new(1,1,1)
+PartieButton.Font = Enum.Font.GothamBold
+PartieButton.TextSize = 16
+Instance.new("UICorner", PartieButton).CornerRadius = UDim.new(0,6)
+
+local PartieListVisible = false
+local PartieListFrame = Instance.new("ScrollingFrame")
+PartieListFrame.Size = UDim2.new(0.45,0,0,200)
+PartieListFrame.Position = UDim2.new(0.52,0,1.1,0)
+PartieListFrame.BackgroundColor3 = Color3.fromRGB(30,30,45)
+PartieListFrame.BorderSizePixel = 0
+PartieListFrame.ScrollBarThickness = 4
+PartieListFrame.Visible = false
+PartieListFrame.Parent = MainContent
+Instance.new("UICorner", PartieListFrame).CornerRadius = UDim.new(0,6)
+
+local PartieListLayout = Instance.new("UIListLayout", PartieListFrame)
+PartieListLayout.Padding = UDim.new(0,4)
+PartieListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+for _, opt in ipairs(optionsParties) do
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(1,0,0,30)
+    btn.BackgroundColor3 = Color3.fromRGB(40,40,60)
+    btn.Text = opt
+    btn.TextColor3 = Color3.new(1,1,1)
+    btn.Font = Enum.Font.Gotham
+    btn.TextSize = 16
+    btn.Parent = PartieListFrame
+    Instance.new("UICorner", btn).CornerRadius = UDim.new(0,4)
 
     btn.MouseButton1Click:Connect(function()
         PartieVisee = opt
@@ -1074,130 +440,39 @@ PartieButton.MouseButton1Click:Connect(function()
 end)
 
 -- ===================== MAIN TAB (suite) =====================
-AddToggle(MainContent, "Aimbot(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Fov Aimbot(function()
-        local a={609,453,674,661,609,453,700,661,661,609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,947,1064,1155,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,947,1064,1155,453,830,453,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,570,453,1350,1467,1337,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.0f(function()
-        local a={570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Smooth Aimbot(function()
-        local a={609,453,661,609,453,674,609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,1116,1454,1480,1480,1545,1389,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1402,1454,1311,1480,1545,1116,1454,1480,1480,1545,1389,453,830,453,1571,453,1350,1467,1337,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.2f(function()
-        local a={570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ESP(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,934,1116,1077,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,934,1116,1077,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Afficher les noms(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1363,1363,1402,1324,1389,1350,1519,1051,1480,1454,1532,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1363,1363,1402,1324,1389,1350,1519,1051,1480,1454,1532,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Vitesse De Marche", 16, 400, Settings.VitesseMarche, function(v) Settings.VitesseMarche = v pcall(function() LocalPlayer.Character.Humanoid.WalkSpeed = v end) end, "%.0f(function()
-        local a={570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Puissance Du Jump", 50, 300, Settings.PuissanceSaut, function(v) Settings.PuissanceSaut = v pcall(function() LocalPlayer.Character.Humanoid.JumpPower = v end) end, "%.0f(function()
-        local a={570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Saut infini(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1116,1298,1558,1545,986,1467,1363,1402,1467,1402,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1116,1298,1558,1545,986,1467,1363,1402,1467,1402,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()NoClip(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1051,1480,908,1441,1402,1493,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1051,1480,908,1441,1402,1493,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TP clic (Ctrl+clic)(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1129,1077,1272,908,1441,1402,1324,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,1129,1077,1272,908,1441,1402,1324,453,830,453,1571,453,1350,1467,1337,570,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Anti-AFK(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1467,1545,1402,882,947,1012,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1467,1545,1402,882,947,1012,453,830,453,1571,453,1350,1467,1337,570,167,167,622,622,453,947,1519,1350,1350,908,1298,1454,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()FreeCam (Shift + P)", Settings.FreeCam, function(v)
+AddToggle(MainContent, "Aimbot", Settings.Aimbot, function(v) Settings.Aimbot = v end)
+AddSlider(MainContent, "Fov Aimbot", 10, 300, Settings.AimbotFOV, function(v) Settings.AimbotFOV = math.floor(v) end, "%.0f")
+AddSlider(MainContent, "Smooth Aimbot", 0, 1, Settings.AimbotSmooth, function(v) Settings.AimbotSmooth = v end, "%.2f")
+AddToggle(MainContent, "ESP", Settings.ESP, function(v) Settings.ESP = v end)
+AddToggle(MainContent, "Afficher les noms", Settings.AfficherNoms, function(v) Settings.AfficherNoms = v end)
+AddSlider(MainContent, "Vitesse De Marche", 16, 400, Settings.VitesseMarche, function(v) Settings.VitesseMarche = v pcall(function() LocalPlayer.Character.Humanoid.WalkSpeed = v end) end, "%.0f")
+AddSlider(MainContent, "Puissance Du Jump", 50, 300, Settings.PuissanceSaut, function(v) Settings.PuissanceSaut = v pcall(function() LocalPlayer.Character.Humanoid.JumpPower = v end) end, "%.0f")
+AddToggle(MainContent, "Saut infini", Settings.SautInfini, function(v) Settings.SautInfini = v end)
+AddToggle(MainContent, "NoClip", Settings.NoClip, function(v) Settings.NoClip = v end)
+AddToggle(MainContent, "TP clic (Ctrl+clic)", Settings.TP_Clic, function(v) Settings.TP_Clic = v end)
+AddToggle(MainContent, "Anti-AFK", Settings.AntiAFK, function(v) Settings.AntiAFK = v end)
+
+-- FreeCam
+AddToggle(MainContent, "FreeCam (Shift + P)", Settings.FreeCam, function(v)
     Settings.FreeCam = v
     if v then
         pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ozguradam822/freecamv2/refs/heads/main/Freecam(function()
-        local a={570,570,557,570,167,453,453,453,453,453,453,453,453,1350,1467,1337,570,167,453,453,453,453,1350,1467,1337,167,1350,1467,1337,570,167,167,622,622,453,947,1441,1610,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Fly(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,947,1441,1610,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,167,453,453,453,453,1116,1350,1545,1545,1402,1467,1376,1532,635,947,1441,1610,453,830,453,1571,167,453,453,453,453,1402,1363,453,1571,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1324,1389,1298,1519,453,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,635,908,1389,1298,1519,1298,1324,1545,1350,1519,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1519,1480,1480,1545,453,830,453,1324,1389,1298,1519,453,1298,1467,1337,453,1324,1389,1298,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()HumanoidRootPart(function()
-        local a={570,167,453,453,453,453,453,453,453,453,1402,1363,453,1519,1480,1480,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1376,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyGyro(function()
-        local a={609,453,1519,1480,1480,1545,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1038,1298,1597,1129,1480,1519,1506,1558,1350,453,830,453,1155,1350,1324,1545,1480,1519,700,635,1467,1350,1584,557,778,1350,713,609,453,778,1350,713,609,453,778,1350,713,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1077,453,830,453,778,1350,713,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1571,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyVelocity", root)
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ozguradam822/freecamv2/refs/heads/main/Freecam"))()
+        end)
+    end
+end)
+
+-- Fly
+AddToggle(MainContent, "Fly", Settings.Fly, function(v)
+    Settings.Fly = v
+    if v then
+        local char = LocalPlayer.Character
+        local root = char and char:FindFirstChild("HumanoidRootPart")
+        if root then
+            local bg = Instance.new("BodyGyro", root)
+            bg.MaxTorque = Vector3.new(9e4, 9e4, 9e4)
+            bg.P = 9e4
+            local bv = Instance.new("BodyVelocity", root)
             bv.Velocity = Vector3.new(0,0.1,0)
             bv.MaxForce = Vector3.new(9e4, 9e4, 9e4)
             local flyConn = RunService.RenderStepped:Connect(function()
@@ -1217,255 +492,163 @@ AddToggle(MainContent, "Aimbot(function()
         end
     else
         if _G.FlyConnection then _G.FlyConnection:Disconnect() end
-        local root = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart(function()
-        local a={570,167,453,453,453,453,453,453,453,453,1402,1363,453,1519,1480,1480,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1363,1480,1519,453,1272,609,453,1324,1389,1402,1441,1337,453,1402,1467,453,1493,1298,1402,1519,1532,557,1519,1480,1480,1545,791,960,1350,1545,908,1389,1402,1441,1337,1519,1350,1467,557,570,570,453,1337,1480,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1324,1389,1402,1441,1337,791,986,1532,882,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyGyro(function()
-        local a={570,453,1480,1519,453,1324,1389,1402,1441,1337,791,986,1532,882,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyVelocity(function()
-        local a={570,453,1545,1389,1350,1467,453,1324,1389,1402,1441,1337,791,921,1350,1532,1545,1519,1480,1610,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,1350,1467,1337,570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Fly Speed(function()
-        local a={609,453,661,609,453,726,661,661,609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,947,1441,1610,1116,1493,1350,1350,1337,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1350,1545,1545,1402,1467,1376,1532,635,947,1441,1610,1116,1493,1350,1350,1337,453,830,453,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,570,453,1350,1467,1337,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.0f(function()
-        local a={570,167,167,622,622,453,1116,1493,1402,1467,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Spin", SpinEnabled, function(v)
+        local root = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+        if root then
+            for _, child in pairs(root:GetChildren()) do
+                if child:IsA("BodyGyro") or child:IsA("BodyVelocity") then child:Destroy() end
+            end
+        end
+    end
+end)
+AddSlider(MainContent, "Fly Speed", 0, 500, Settings.FlySpeed, function(v) Settings.FlySpeed = math.floor(v) end, "%.0f")
+
+-- Spin
+AddToggle(MainContent, "Spin", SpinEnabled, function(v)
     SpinEnabled = v
     if v then
         spawn(function()
             local char = LocalPlayer.Character
-            local root = char and char:FindFirstChild("HumanoidRootPart(function()
-        local a={570,167,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1519,1480,1480,1545,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1272,960,635,1116,1493,1402,1467,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,1545,1389,1350,1467,453,1272,960,635,1116,1493,1402,1467,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,791,921,1402,1532,1324,1480,1467,1467,1350,1324,1545,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1272,960,635,1116,1493,1402,1467,1129,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,453,1545,1389,1350,1467,453,1272,960,635,1116,1493,1402,1467,1129,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,791,921,1402,1532,1324,1480,1467,1467,1350,1324,1545,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1532,1493,1402,1467,908,1480,1467,1467,453,830,453,1103,1558,1467,1116,1350,1519,1571,1402,1324,1350,635,973,1350,1298,1519,1545,1311,1350,1298,1545,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1337,1545,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1116,1493,1402,1467,934,1467,1298,1311,1441,1350,1337,453,1480,1519,453,1467,1480,1545,453,1519,1480,1480,1545,453,1480,1519,453,1467,1480,1545,453,1519,1480,1480,1545,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1519,1480,1480,1545,635,908,947,1519,1298,1454,1350,453,830,453,1519,1480,1480,1545,635,908,947,1519,1298,1454,1350,453,583,453,908,947,1519,1298,1454,1350,635,882,1467,1376,1441,1350,1532,557,661,609,453,1454,1298,1545,1389,635,1519,1298,1337,557,1116,1493,1402,1467,1116,1493,1350,1350,1337,453,583,453,1337,1545,570,609,453,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1350,1467,1337,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1272,960,635,1116,1493,1402,1467,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,830,453,1532,1493,1402,1467,908,1480,1467,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1545,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,453,830,453,1519,1480,1480,1545,635,1129,1480,1558,1324,1389,1350,1337,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1389,1402,1545,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1116,1493,1402,1467,934,1467,1298,1311,1441,1350,1337,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1389,1402,1545,453,1480,1519,453,1467,1480,1545,453,1389,1402,1545,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1389,1558,1454,453,830,453,1389,1402,1545,635,1077,1298,1519,1350,1467,1545,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,1168,1389,1402,1324,1389,986,1532,882,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Humanoid(function()
-        local a={570,453,1480,1519,453,557,1389,1402,1545,635,1077,1298,1519,1350,1467,1545,635,1077,1298,1519,1350,1467,1545,453,1298,1467,1337,453,1389,1402,1545,635,1077,1298,1519,1350,1467,1545,635,1077,1298,1519,1350,1467,1545,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,1168,1389,1402,1324,1389,986,1532,882,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Humanoid(function()
-        local a={570,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1389,1558,1454,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1337,1402,1519,1350,1324,1545,1402,1480,1467,453,830,453,557,1519,1480,1480,1545,635,1077,1480,1532,1402,1545,1402,1480,1467,453,622,453,1389,1402,1545,635,1077,1480,1532,1402,1545,1402,1480,1467,570,635,1142,1467,1402,1545,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1337,1402,1519,1350,1324,1545,1402,1480,1467,635,1038,1298,1376,1467,1402,1545,1558,1337,1350,453,817,453,661,635,661,674,453,1545,1389,1350,1467,453,1337,1402,1519,1350,1324,1545,1402,1480,1467,453,830,453,622,1519,1480,1480,1545,635,908,947,1519,1298,1454,1350,635,1025,1480,1480,1428,1155,1350,1324,1545,1480,1519,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1519,1350,1324,1480,1402,1441,1077,1480,1584,1350,1519,453,830,453,739,661,453,596,453,557,1116,1493,1402,1467,1116,1493,1350,1350,1337,453,648,453,765,661,661,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1571,1350,1519,1545,1402,1324,1298,1441,895,1480,1480,1532,1545,453,830,453,687,726,453,596,453,557,1116,1493,1402,1467,1116,1493,1350,1350,1337,453,648,453,713,661,661,661,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1571,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyVelocity(function()
-        local a={570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1311,1571,635,1155,1350,1441,1480,1324,1402,1545,1610,453,830,453,557,1337,1402,1519,1350,1324,1545,1402,1480,1467,453,583,453,1519,1350,1324,1480,1402,1441,1077,1480,1584,1350,1519,570,453,596,453,1155,1350,1324,1545,1480,1519,700,635,1467,1350,1584,557,661,609,453,1571,1350,1519,1545,1402,1324,1298,1441,895,1480,1480,1532,1545,609,453,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1311,1571,635,1038,1298,1597,947,1480,1519,1324,1350,453,830,453,1155,1350,1324,1545,1480,1519,700,635,1467,1350,1584,557,713,661,661,661,661,661,661,609,453,713,661,661,661,661,661,661,609,453,713,661,661,661,661,661,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1311,1571,635,1077,1298,1519,1350,1467,1545,453,830,453,1519,1480,1480,1545,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1376,1298,1454,1350,635,921,1350,1311,1519,1402,1532,791,882,1337,1337,986,1545,1350,1454,557,1311,1571,609,453,661,635,674,739,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1350,1467,1337,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1272,960,635,1116,1493,1402,1467,1129,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,453,830,453,1545,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,167,453,453,453,453,453,453,453,453,1350,1467,1337,570,167,453,453,453,453,1350,1441,1532,1350,167,453,453,453,453,453,453,453,453,1402,1363,453,1272,960,635,1116,1493,1402,1467,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,1545,1389,1350,1467,453,1272,960,635,1116,1493,1402,1467,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,791,921,1402,1532,1324,1480,1467,1467,1350,1324,1545,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,1402,1363,453,1272,960,635,1116,1493,1402,1467,1129,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,453,1545,1389,1350,1467,453,1272,960,635,1116,1493,1402,1467,1129,1480,1558,1324,1389,1350,1337,908,1480,1467,1467,791,921,1402,1532,1324,1480,1467,1467,1350,1324,1545,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1519,1480,1480,1545,453,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,635,908,1389,1298,1519,1298,1324,1545,1350,1519,453,1298,1467,1337,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,635,908,1389,1298,1519,1298,1324,1545,1350,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()HumanoidRootPart(function()
-        local a={570,167,453,453,453,453,453,453,453,453,1402,1363,453,1519,1480,1480,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1363,1480,1519,453,1272,609,453,1324,1389,1402,1441,1337,453,1402,1467,453,1493,1298,1402,1519,1532,557,1519,1480,1480,1545,791,960,1350,1545,908,1389,1402,1441,1337,1519,1350,1467,557,570,570,453,1337,1480,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1324,1389,1402,1441,1337,791,986,1532,882,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BodyVelocity(function()
-        local a={570,453,1545,1389,1350,1467,453,1324,1389,1402,1441,1337,791,921,1350,1532,1545,1519,1480,1610,557,570,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,1350,1467,1337,570,167,882,1337,1337,1116,1441,1402,1337,1350,1519,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Spin Vitesse(function()
-        local a={609,453,674,661,661,609,453,674,726,661,661,661,609,453,1116,1493,1402,1467,1116,1493,1350,1350,1337,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,453,1116,1493,1402,1467,1116,1493,1350,1350,1337,453,830,453,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,570,453,1350,1467,1337,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()%.0f(function()
-        local a={570,167,167,622,622,453,895,1519,1298,1467,1441,1350,1545,1545,1350,167,1441,1480,1324,1298,1441,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,1441,1480,1324,1298,1441,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,1129,1402,1454,1350,453,830,453,661,167,882,1337,1337,1129,1480,1376,1376,1441,1350,557,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,609,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Branlette(function()
-        local a={609,453,1116,1350,1545,1545,1402,1467,1376,1532,635,895,1519,1298,1467,1441,1350,1545,1545,1350,609,453,1363,1558,1467,1324,1545,1402,1480,1467,557,1571,570,167,453,453,453,453,1116,1350,1545,1545,1402,1467,1376,1532,635,895,1519,1298,1467,1441,1350,1545,1545,1350,453,830,453,1571,167,453,453,453,453,1402,1363,453,1571,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1324,1389,1298,1519,453,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,635,908,1389,1298,1519,1298,1324,1545,1350,1519,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1519,1402,1376,1389,1545,882,1519,1454,453,830,453,1324,1389,1298,1519,453,1298,1467,1337,453,557,1324,1389,1298,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Right Arm(function()
-        local a={570,453,1480,1519,453,1324,1389,1298,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()RightUpperArm(function()
-        local a={570,570,167,453,453,453,453,453,453,453,453,1402,1363,453,1519,1402,1376,1389,1545,882,1519,1454,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,830,453,1103,1558,1467,1116,1350,1519,1571,1402,1324,1350,635,973,1350,1298,1519,1545,1311,1350,1298,1545,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1337,1545,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,1129,1402,1454,1350,453,596,830,453,1337,1545,453,583,453,687,661,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1480,1363,1363,1532,1350,1545,453,830,453,1454,1298,1545,1389,635,1532,1402,1467,557,1311,1519,1298,1467,1441,1350,1545,1545,1350,1129,1402,1454,1350,570,453,583,453,661,635,700,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1519,1402,1376,1389,1545,882,1519,1454,635,908,947,1519,1298,1454,1350,453,830,453,1324,1389,1298,1519,635,973,1558,1454,1298,1467,1480,1402,1337,1103,1480,1480,1545,1077,1298,1519,1545,635,908,947,1519,1298,1454,1350,453,583,453,908,947,1519,1298,1454,1350,635,1467,1350,1584,557,661,609,453,622,687,609,453,622,661,635,726,453,596,453,1480,1363,1363,1532,1350,1545,570,453,583,453,908,947,1519,1298,1454,1350,635,882,1467,1376,1441,1350,1532,557,1454,1298,1545,1389,635,1519,1298,1337,557,778,661,570,609,453,1454,1298,1545,1389,635,1519,1298,1337,557,661,570,609,453,1454,1298,1545,1389,635,1519,1298,1337,557,661,570,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1350,1467,1337,570,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1441,1532,1350,167,453,453,453,453,453,453,453,453,1402,1363,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,453,1545,1389,1350,1467,453,1311,1519,1298,1467,1441,1350,1545,1545,1350,908,1480,1467,1467,1350,1324,1545,1402,1480,1467,791,921,1402,1532,1324,1480,1467,1467,1350,1324,1545,557,570,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,1350,1467,1337,570,167,167,622,622,453,1025,1402,1532,1545,1350,453,1337,1350,1532,453,1415,1480,1558,1350,1558,1519,1532,167,1441,1480,1324,1298,1441,453,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,1129,1402,1545,1441,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", MainContent)
+            local root = char and char:FindFirstChild("HumanoidRootPart")
+            if not root then return end
+            
+            if _G.SpinConnection then _G.SpinConnection:Disconnect() end
+            if _G.SpinTouchedConn then _G.SpinTouchedConn:Disconnect() end
+            
+            local spinConn = RunService.Heartbeat:Connect(function(dt)
+                if not SpinEnabled or not root or not root.Parent then return end
+                root.CFrame = root.CFrame * CFrame.Angles(0, math.rad(SpinSpeed * dt), 0)
+            end)
+            _G.SpinConnection = spinConn
+            
+            local touchedConn = root.Touched:Connect(function(hit)
+                if not SpinEnabled then return end
+                if not hit or not hit.Parent then return end
+                local hum = hit.Parent:FindFirstChildWhichIsA("Humanoid") or (hit.Parent.Parent and hit.Parent.Parent:FindFirstChildWhichIsA("Humanoid"))
+                if hum then return end
+                
+                local direction = (root.Position - hit.Position).Unit
+                if direction.Magnitude < 0.01 then direction = -root.CFrame.LookVector end
+                
+                local recoilPower = 60 + (SpinSpeed / 8000)
+                local verticalBoost = 25 + (SpinSpeed / 40000)
+                
+                local bv = Instance.new("BodyVelocity")
+                bv.Velocity = (direction * recoilPower) + Vector3.new(0, verticalBoost, 0)
+                bv.MaxForce = Vector3.new(4000000, 4000000, 4000000)
+                bv.Parent = root
+                game.Debris:AddItem(bv, 0.16)
+            end)
+            _G.SpinTouchedConn = touchedConn
+        end)
+    else
+        if _G.SpinConnection then _G.SpinConnection:Disconnect() end
+        if _G.SpinTouchedConn then _G.SpinTouchedConn:Disconnect() end
+        local root = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+        if root then
+            for _, child in pairs(root:GetChildren()) do
+                if child:IsA("BodyVelocity") then child:Destroy() end
+            end
+        end
+    end
+end)
+AddSlider(MainContent, "Spin Vitesse", 100, 15000, SpinSpeed, function(v) SpinSpeed = math.floor(v) end, "%.0f")
+
+-- Branlette
+local branletteConnection local branletteTime = 0
+AddToggle(MainContent, "Branlette", Settings.Branlette, function(v)
+    Settings.Branlette = v
+    if v then
+        local char = LocalPlayer.Character
+        local rightArm = char and (char:FindFirstChild("Right Arm") or char:FindFirstChild("RightUpperArm"))
+        if rightArm then
+            branletteConnection = RunService.Heartbeat:Connect(function(dt)
+                branletteTime += dt * 20
+                local offset = math.sin(branletteTime) * 0.3
+                rightArm.CFrame = char.HumanoidRootPart.CFrame * CFrame.new(0, -2, -0.5 + offset) * CFrame.Angles(math.rad(90), math.rad(0), math.rad(0))
+            end)
+        end
+    else
+        if branletteConnection then branletteConnection:Disconnect() end
+    end
+end)
+
+-- Liste des joueurs
+local PlayersListTitle = Instance.new("TextLabel", MainContent)
 PlayersListTitle.Size = UDim2.new(1,0,0,30)
 PlayersListTitle.BackgroundTransparency = 1
-PlayersListTitle.Text = (function()
-        local a={1025,1402,1532,1545,1350,453,1337,1350,1532,453,999,1480,1558,1350,1558,1519,1532,453,622,453,908,1441,1402,1506,1558,1350,453,1493,1480,1558,1519,453,1298,1415,1480,1558,1545,1350,1519,453,1350,1467,453,1298,1454,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+PlayersListTitle.Text = "Liste des Joueurs - Clique pour ajouter en ami"
 PlayersListTitle.TextColor3 = Color3.fromRGB(180,180,255)
 PlayersListTitle.Font = Enum.Font.GothamBold
 PlayersListTitle.TextSize = 18
 PlayersListTitle.LayoutOrder = 100
 
-local SearchFrame = Instance.new("Frame(function()
-        local a={609,453,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,570,167,1116,1350,1298,1519,1324,1389,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,700,739,570,167,1116,1350,1298,1519,1324,1389,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,661,609,700,661,609,713,726,570,167,1116,1350,1298,1519,1324,1389,947,1519,1298,1454,1350,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,453,830,453,674,661,674,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1116,1350,1298,1519,1324,1389,947,1519,1298,1454,1350,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,1441,1480,1324,1298,1441,453,1116,1350,1298,1519,1324,1389,895,1480,1597,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextBox", SearchFrame)
+local SearchFrame = Instance.new("Frame", MainContent)
+SearchFrame.Size = UDim2.new(1,0,0,36)
+SearchFrame.BackgroundColor3 = Color3.fromRGB(30,30,45)
+SearchFrame.LayoutOrder = 101
+Instance.new("UICorner", SearchFrame).CornerRadius = UDim.new(0,8)
+
+local SearchBox = Instance.new("TextBox", SearchFrame)
 SearchBox.Size = UDim2.new(1,-16,1,-8)
 SearchBox.Position = UDim2.new(0,8,0,4)
 SearchBox.BackgroundColor3 = Color3.fromRGB(20,20,35)
 SearchBox.TextColor3 = Color3.new(1,1,1)
-SearchBox.PlaceholderText = (function()
-        local a={1103,1350,1324,1389,1350,1519,1324,1389,1350,1519,453,1558,1467,453,1415,1480,1558,1350,1558,1519,635,635,635};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
-SearchBox.Text = "(function()
-        local a={167,1116,1350,1298,1519,1324,1389,895,1480,1597,635,908,1441,1350,1298,1519,1129,1350,1597,1545,1064,1467,947,1480,1324,1558,1532,453,830,453,1363,1298,1441,1532,1350,167,1116,1350,1298,1519,1324,1389,895,1480,1597,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,1116,1350,1298,1519,1324,1389,895,1480,1597,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1116,1350,1298,1519,1324,1389,895,1480,1597,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,167,1441,1480,1324,1298,1441,453,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ScrollingFrame(function()
-        local a={609,453,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,570,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,700,661,661,570,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1116,1324,1519,1480,1441,1441,895,1298,1519,1129,1389,1402,1324,1428,1467,1350,1532,1532,453,830,453,726,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,635,908,1298,1467,1571,1298,1532,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,661,609,661,609,661,570,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,453,830,453,674,661,687,167,167,1441,1480,1324,1298,1441,453,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIListLayout(function()
-        local a={609,453,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,570,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,635,1077,1298,1337,1337,1402,1467,1376,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,453,830,453,934,1467,1558,1454,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,908,1519,1350,1298,1545,1350,1077,1441,1298,1610,1350,1519,1025,1402,1467,1350,557,1493,1441,1298,1610,1350,1519,570,167,453,453,453,453,1402,1363,453,1025,1402,1532,1545,1350,999,1480,1558,1350,1558,1519,1532,947,1519,1298,1454,1350,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,1441,1480,1324,1298,1441,453,1363,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={570,167,453,453,453,453,1363,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,687,570,167,453,453,453,453,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,765,609,700,765,609,726,726,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1363,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,752,570,167,453,453,453,453,1363,635,1077,1298,1519,1350,1467,1545,453,830,453,1077,1441,1298,1610,1350,1519,1532,1025,1402,1532,1545,947,1519,1298,1454,1350,167,453,453,453,453,1025,1402,1532,1545,1350,999,1480,1558,1350,1558,1519,1532,947,1519,1298,1454,1350,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,830,453,1363,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel(function()
-        local a={609,1363,570,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,687,609,661,609,674,609,661,570,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,1129,1350,1597,1545,453,830,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,1545,1298,1311,1441,1350,635,1363,1402,1467,1337,557,1025,1402,1532,1545,1350,882,1454,1402,1532,609,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,570,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,765,661,609,687,726,726,609,687,726,726,570,453,1480,1519,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,752,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,1116,1350,1454,1402,1311,1480,1441,1337,167,453,453,453,453,1467,1298,1454,1350,1025,1298,1311,1350,1441,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1025,1350,1363,1545,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding(function()
-        local a={609,1467,1298,1454,1350,1025,1298,1311,1350,1441,570,635,1077,1298,1337,1337,1402,1467,1376,1025,1350,1363,1545,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,713,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1532,1545,1298,1545,1558,1532,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel(function()
-        local a={609,1363,570,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,700,739,609,661,609,661,635,765,609,661,570,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,713,609,661,609,661,635,674,609,661,570,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1129,1350,1597,1545,453,830,453,1545,1298,1311,1441,1350,635,1363,1402,1467,1337,557,1025,1402,1532,1545,1350,882,1454,1402,1532,609,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,570,453,1298,1467,1337,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()AMI(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()(function()
-        local a={167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,661,661,609,687,726,726,609,687,661,661,570,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,726,167,167,453,453,453,453,1363,635,986,1467,1493,1558,1545,895,1350,1376,1298,1467,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1402,1467,1493,1558,1545,570,167,453,453,453,453,453,453,453,453,1402,1363,453,1402,1467,1493,1558,1545,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,453,830,830,453,934,1467,1558,1454,635,1142,1532,1350,1519,986,1467,1493,1558,1545,1129,1610,1493,1350,635,1038,1480,1558,1532,1350,895,1558,1545,1545,1480,1467,674,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1402,1337,1597,453,830,453,1545,1298,1311,1441,1350,635,1363,1402,1467,1337,557,1025,1402,1532,1545,1350,882,1454,1402,1532,609,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1402,1363,453,1402,1337,1597,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1545,1298,1311,1441,1350,635,1519,1350,1454,1480,1571,1350,557,1025,1402,1532,1545,1350,882,1454,1402,1532,609,453,1402,1337,1597,570,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1532,1545,1298,1545,1558,1532,635,1129,1350,1597,1545,453,830,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()"
+SearchBox.PlaceholderText = "Rechercher un joueur..."
+SearchBox.Text = ""
+SearchBox.ClearTextOnFocus = false
+SearchBox.Font = Enum.Font.Gotham
+SearchBox.TextSize = 16
+Instance.new("UICorner", SearchBox).CornerRadius = UDim.new(0,6)
+
+local PlayersListFrame = Instance.new("ScrollingFrame", MainContent)
+PlayersListFrame.Size = UDim2.new(1,0,0,300)
+PlayersListFrame.BackgroundTransparency = 1
+PlayersListFrame.ScrollBarThickness = 5
+PlayersListFrame.CanvasSize = UDim2.new(0,0,0,0)
+PlayersListFrame.LayoutOrder = 102
+
+local PlayersListLayout = Instance.new("UIListLayout", PlayersListFrame)
+PlayersListLayout.Padding = UDim.new(0,6)
+PlayersListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+local function CreatePlayerLine(player)
+    if ListeJoueursFrames[player] then return end
+    local f = Instance.new("Frame")
+    f.Size = UDim2.new(1,0,0,42)
+    f.BackgroundColor3 = Color3.fromRGB(38,38,55)
+    Instance.new("UICorner",f).CornerRadius = UDim.new(0,7)
+    f.Parent = PlayersListFrame
+    ListeJoueursFrames[player] = f
+
+    local nameLabel = Instance.new("TextLabel",f)
+    nameLabel.Size = UDim2.new(0.62,0,1,0)
+    nameLabel.BackgroundTransparency = 1
+    nameLabel.Text = player.Name
+    nameLabel.TextColor3 = table.find(ListeAmis, player.Name) and Color3.fromRGB(80,255,255) or Color3.new(1,1,1)
+    nameLabel.TextSize = 17
+    nameLabel.Font = Enum.Font.GothamSemibold
+    nameLabel.TextXAlignment = Enum.TextXAlignment.Left
+    Instance.new("UIPadding",nameLabel).PaddingLeft = UDim.new(0,14)
+
+    local status = Instance.new("TextLabel",f)
+    status.Size = UDim2.new(0.36,0,0.8,0)
+    status.Position = UDim2.new(0.64,0,0.1,0)
+    status.BackgroundTransparency = 1
+    status.Text = table.find(ListeAmis, player.Name) and "AMI" or ""
+    status.TextColor3 = Color3.fromRGB(100,255,200)
+    status.Font = Enum.Font.GothamBold
+    status.TextSize = 15
+
+    f.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            local idx = table.find(ListeAmis, player.Name)
+            if idx then
+                table.remove(ListeAmis, idx)
+                status.Text = ""
                 nameLabel.TextColor3 = Color3.new(1,1,1)
             else
                 table.insert(ListeAmis, player.Name)
-                status.Text = (function()
-        local a={882,1038,986};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+                status.Text = "AMI"
                 nameLabel.TextColor3 = Color3.fromRGB(80,255,255)
             end
             UpdateWatermark()
@@ -1474,14 +657,17 @@ SearchBox.Text = "(function()
 end
 
 local function RefreshPlayerList(filter)
-    filter = (filter or "(function()
-        local a={570,791,1441,1480,1584,1350,1519,557,570,167,453,453,453,453,1363,1480,1519,453,1493,609,453,1363,1519,1298,1454,1350,453,1402,1467,453,1493,1298,1402,1519,1532,557,1025,1402,1532,1545,1350,999,1480,1558,1350,1558,1519,1532,947,1519,1298,1454,1350,1532,570,453,1337,1480,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1493,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1363,1519,1298,1454,1350,791,921,1350,1532,1545,1519,1480,1610,557,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1025,1402,1532,1545,1350,999,1480,1558,1350,1558,1519,1532,947,1519,1298,1454,1350,1532,1220,1493,1246,453,830,453,1467,1402,1441,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1532,1480,1519,1545,1350,1337,453,830,453,1636,1662,167,453,453,453,453,1363,1480,1519,453,1272,609,453,1493,453,1402,1467,453,1402,1493,1298,1402,1519,1532,557,1077,1441,1298,1610,1350,1519,1532,791,960,1350,1545,1077,1441,1298,1610,1350,1519,1532,557,570,570,453,1337,1480,167,453,453,453,453,453,453,453,453,1402,1363,453,1493,453,1675,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,453,1298,1467,1337,453,557,1363,1402,1441,1545,1350,1519,453,830,830,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()" or p.Name:lower():find(filter,1,true)) then
+    filter = (filter or ""):lower()
+    for p, frame in pairs(ListeJoueursFrames) do
+        if not p.Parent then
+            frame:Destroy()
+            ListeJoueursFrames[p] = nil
+        end
+    end
+
+    local sorted = {}
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LocalPlayer and (filter == "" or p.Name:lower():find(filter,1,true)) then
             table.insert(sorted, p)
         end
     end
@@ -1527,35 +713,40 @@ local ESP_Objects = {}
 local function CreateOrUpdateESP(player)
     if player == LocalPlayer then return end
     local char = player.Character
-    if not char or not char:FindFirstChild("HumanoidRootPart(function()
-        local a={570,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1402,1532,947,1519,1402,1350,1467,1337,453,830,453,1545,1298,1311,1441,1350,635,1363,1402,1467,1337,557,1025,1402,1532,1545,1350,882,1454,1402,1532,609,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,570,453,1675,830,453,1467,1402,1441,167,453,453,453,453,1441,1480,1324,1298,1441,453,1402,1532,1129,1350,1298,1454,453,830,453,557,1493,1441,1298,1610,1350,1519,635,1129,1350,1298,1454,453,830,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,635,1129,1350,1298,1454,453,1298,1467,1337,453,1493,1441,1298,1610,1350,1519,635,1129,1350,1298,1454,453,1675,830,453,1467,1402,1441,570,453,1298,1467,1337,453,1467,1480,1545,453,1402,1532,947,1519,1402,1350,1467,1337,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1324,1480,1441,1480,1519,947,1402,1441,1441,453,830,453,1402,1532,947,1519,1402,1350,1467,1337,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,726,661,609,453,687,687,661,609,453,687,726,726,570,453,1480,1519,453,557,1402,1532,1129,1350,1298,1454,453,1298,1467,1337,453,908,1064,1142,1025,934,1142,1103,1272,882,1025,1025,986,934,453,1480,1519,453,908,1064,1142,1025,934,1142,1103,1272,934,1051,1051,934,1038,986,570,167,453,453,453,453,1441,1480,1324,1298,1441,453,1324,1480,1441,1480,1519,1064,1558,1545,1441,1402,1467,1350,453,830,453,1402,1532,947,1519,1402,1350,1467,1337,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,687,661,609,453,687,713,661,609,453,687,726,726,570,453,1480,1519,453,557,1402,1532,1129,1350,1298,1454,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,661,661,609,687,726,726,609,687,661,661,570,453,1480,1519,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,687,661,661,609,687,661,661,570,570,167,453,453,453,453,1441,1480,1324,1298,1441,453,1324,1480,1441,1480,1519,1051,1298,1454,1350,453,830,453,1402,1532,947,1519,1402,1350,1467,1337,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,661,661,609,453,687,726,726,609,453,687,726,726,570,453,1480,1519,453,557,1402,1532,1129,1350,1298,1454,453,1298,1467,1337,453,908,1064,1142,1025,934,1142,1103,1272,1051,1064,1038,1272,882,1025,1025,986,934,453,1480,1519,453,908,1064,1142,1025,934,1142,1103,1272,1051,1064,1038,1272,934,1051,1051,934,1038,986,570,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1389,1441,453,830,453,934,1116,1077,1272,1064,1311,1415,1350,1324,1545,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,1298,1467,1337,453,934,1116,1077,1272,1064,1311,1415,1350,1324,1545,1532,1220,1493,1441,1298,1610,1350,1519,1246,635,973,1402,1376,1389,1441,1402,1376,1389,1545,167,453,453,453,453,1402,1363,453,1467,1480,1545,453,1389,1441,453,1480,1519,453,1467,1480,1545,453,1389,1441,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,1389,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Highlight(function()
-        local a={570,167,453,453,453,453,453,453,453,453,1389,1441,635,1077,1298,1519,1350,1467,1545,453,830,453,1324,1389,1298,1519,167,453,453,453,453,453,453,453,453,934,1116,1077,1272,1064,1311,1415,1350,1324,1545,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,830,453,1636,973,1402,1376,1389,1441,1402,1376,1389,1545,453,830,453,1389,1441,1662,167,453,453,453,453,1350,1467,1337,167,453,453,453,453,1389,1441,635,947,1402,1441,1441,908,1480,1441,1480,1519,453,830,453,1324,1480,1441,1480,1519,947,1402,1441,1441,167,453,453,453,453,1389,1441,635,1064,1558,1545,1441,1402,1467,1350,908,1480,1441,1480,1519,453,830,453,1324,1480,1441,1480,1519,1064,1558,1545,1441,1402,1467,1350,167,453,453,453,453,1389,1441,635,947,1402,1441,1441,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,661,635,726,726,167,453,453,453,453,1389,1441,635,1064,1558,1545,1441,1402,1467,1350,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,661,635,674,726,167,453,453,453,453,1389,1441,635,921,1350,1493,1545,1389,1038,1480,1337,1350,453,830,453,934,1467,1558,1454,635,973,1402,1376,1389,1441,1402,1376,1389,1545,921,1350,1493,1545,1389,1038,1480,1337,1350,635,882,1441,1584,1298,1610,1532,1064,1467,1129,1480,1493,167,453,453,453,453,1389,1441,635,934,1467,1298,1311,1441,1350,1337,453,830,453,1116,1350,1545,1545,1402,1467,1376,1532,635,934,1116,1077,167,167,453,453,453,453,1402,1363,453,1116,1350,1545,1545,1402,1467,1376,1532,635,882,1363,1363,1402,1324,1389,1350,1519,1051,1480,1454,1532,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1311,1376,453,830,453,934,1116,1077,1272,1064,1311,1415,1350,1324,1545,1532,1220,1493,1441,1298,1610,1350,1519,1246,635,895,1402,1441,1441,1311,1480,1298,1519,1337,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1311,1376,453,1480,1519,453,1467,1480,1545,453,1311,1376,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()BillboardGui(function()
-        local a={570,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,882,1337,1480,1519,1467,1350,1350,453,830,453,1324,1389,1298,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Head(function()
-        local a={570,453,1480,1519,453,1324,1389,1298,1519,635,973,1558,1454,1298,1467,1480,1402,1337,1103,1480,1480,1545,1077,1298,1519,1545,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,674,739,661,609,661,609,713,726,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1116,1545,1558,1337,1532,1064,1363,1363,1532,1350,1545,453,830,453,1155,1350,1324,1545,1480,1519,700,635,1467,1350,1584,557,661,609,700,635,713,609,661,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,882,1441,1584,1298,1610,1532,1064,1467,1129,1480,1493,453,830,453,1545,1519,1558,1350,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1038,1298,1597,921,1402,1532,1545,1298,1467,1324,1350,453,830,453,778,661,661,167,453,453,453,453,453,453,453,453,453,453,453,453,1311,1376,635,1077,1298,1519,1350,1467,1545,453,830,453,1324,1389,1298,1519,167,167,453,453,453,453,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1545,1597,1545,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", bg)
+    if not char or not char:FindFirstChild("HumanoidRootPart") then return end
+
+    local isFriend = table.find(ListeAmis, player.Name) ~= nil
+    local isTeam = (player.Team == LocalPlayer.Team and player.Team ~= nil) and not isFriend
+
+    local colorFill = isFriend and Color3.fromRGB(50, 220, 255) or (isTeam and COULEUR_ALLIE or COULEUR_ENNEMI)
+    local colorOutline = isFriend and Color3.fromRGB(120, 240, 255) or (isTeam and Color3.fromRGB(200,255,200) or Color3.fromRGB(255,200,200))
+    local colorName = isFriend and Color3.fromRGB(100, 255, 255) or (isTeam and COULEUR_NOM_ALLIE or COULEUR_NOM_ENNEMI)
+
+    local hl = ESP_Objects[player] and ESP_Objects[player].Highlight
+    if not hl or not hl.Parent then
+        hl = Instance.new("Highlight")
+        hl.Parent = char
+        ESP_Objects[player] = {Highlight = hl}
+    end
+    hl.FillColor = colorFill
+    hl.OutlineColor = colorOutline
+    hl.FillTransparency = 0.55
+    hl.OutlineTransparency = 0.15
+    hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    hl.Enabled = Settings.ESP
+
+    if Settings.AfficherNoms then
+        local bg = ESP_Objects[player].Billboard
+        if not bg or not bg.Parent then
+            bg = Instance.new("BillboardGui")
+            bg.Adornee = char:FindFirstChild("Head") or char.HumanoidRootPart
+            bg.Size = UDim2.new(0,160,0,45)
+            bg.StudsOffset = Vector3.new(0,3.4,0)
+            bg.AlwaysOnTop = true
+            bg.MaxDistance = 900
+            bg.Parent = char
+
+            local txt = Instance.new("TextLabel", bg)
             txt.Size = UDim2.new(1,0,1,0)
             txt.BackgroundTransparency = 1
             txt.Text = player.Name
@@ -1635,14 +826,7 @@ RunService.RenderStepped:Connect(function()
                 break
             end
         end
-        target = target or char:FindFirstChild("Head(function()
-        local a={570,453,1480,1519,453,1324,1389,1298,1519,791,947,1402,1467,1337,947,1402,1519,1532,1545,908,1389,1402,1441,1337,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()HumanoidRootPart")
+        target = target or char:FindFirstChild("Head") or char:FindFirstChild("HumanoidRootPart")
 
         if target then
             local pos, onScreen = cam:WorldToViewportPoint(target.Position)
@@ -1692,71 +876,36 @@ end)
 
 LocalPlayer.Idled:Connect(function()
     if Settings.AntiAFK then
-        game:GetService("VirtualUser(function()
-        local a={570,791,908,1298,1493,1545,1558,1519,1350,908,1480,1467,1545,1519,1480,1441,1441,1350,1519,557,570,167,453,453,453,453,453,453,453,453,1376,1298,1454,1350,791,960,1350,1545,1116,1350,1519,1571,1402,1324,1350,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()VirtualUser(function()
-        local a={570,791,908,1441,1402,1324,1428,895,1558,1545,1545,1480,1467,687,557,1155,1350,1324,1545,1480,1519,687,635,1467,1350,1584,557,570,570,167,453,453,453,453,1350,1467,1337,167,1350,1467,1337,570,167,167,622,622,453,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,453,1064,1051,960,1025,934,1129,453,1129,934,1025,934,1077,1064,1103,1129,934,1103,453,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,167,1441,1480,1324,1298,1441,453,1129,1350,1441,1350,1493,1480,1519,1545,1129,1402,1545,1441,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", TeleportContent)
+        game:GetService("VirtualUser"):CaptureController()
+        game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+    end
+end)
+
+-- ===================== ONGLET TELEPORTER =====================
+local TeleportTitle = Instance.new("TextLabel", TeleportContent)
 TeleportTitle.Size = UDim2.new(1,0,0,40)
 TeleportTitle.BackgroundTransparency = 1
-TeleportTitle.Text = (function()
-        local a={1116,3066,1441,1350,1324,1545,1402,1480,1467,1467,1350,453,1558,1467,453,1415,1480,1558,1350,1558,1519,453,1493,1480,1558,1519,453,1545,1350,453,1324,1480,1441,1441,1350,1519,453,2949,453,1441,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+TeleportTitle.Text = "Sélectionne un joueur pour te coller à lui"
 TeleportTitle.TextColor3 = Color3.fromRGB(200,200,255)
 TeleportTitle.Font = Enum.Font.GothamBold
 TeleportTitle.TextSize = 22
 TeleportTitle.LayoutOrder = 1
 
-local FollowToggleBtn = Instance.new("TextButton(function()
-        local a={609,453,1129,1350,1441,1350,1493,1480,1519,1545,908,1480,1467,1545,1350,1467,1545,570,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,765,609,661,609,661,609,726,661,570,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,674,609,661,609,661,609,726,661,570,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,661,609,687,661,661,609,674,661,661,570,453,1480,1519,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,661,661,609,726,661,609,726,661,570,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,1129,1350,1597,1545,453,830,453,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,453,1298,1467,1337,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()FOLLOW ACTIF(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()SUIVRE LE JOUEUR(function()
-        local a={167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,947,1480,1441,1441,1480,1584,1129,1480,1376,1376,1441,1350,895,1545,1467,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,687,713,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner", FollowToggleBtn).CornerRadius = UDim.new(0,12)
+local FollowToggleBtn = Instance.new("TextButton", TeleportContent)
+FollowToggleBtn.Size = UDim2.new(0.8,0,0,50)
+FollowToggleBtn.Position = UDim2.new(0.1,0,0,50)
+FollowToggleBtn.BackgroundColor3 = FollowToggle and Color3.fromRGB(0,200,100) or Color3.fromRGB(200,50,50)
+FollowToggleBtn.Text = FollowToggle and "FOLLOW ACTIF" or "SUIVRE LE JOUEUR"
+FollowToggleBtn.TextColor3 = Color3.new(1,1,1)
+FollowToggleBtn.Font = Enum.Font.GothamBold
+FollowToggleBtn.TextSize = 24
+Instance.new("UICorner", FollowToggleBtn).CornerRadius = UDim.new(0,12)
 FollowToggleBtn.LayoutOrder = 2
 
 FollowToggleBtn.MouseButton1Click:Connect(function()
     FollowToggle = not FollowToggle
     FollowToggleBtn.BackgroundColor3 = FollowToggle and Color3.fromRGB(0,200,100) or Color3.fromRGB(200,50,50)
-    FollowToggleBtn.Text = FollowToggle and "FOLLOW ACTIF(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()SUIVRE LE JOUEUR"
+    FollowToggleBtn.Text = FollowToggle and "FOLLOW ACTIF" or "SUIVRE LE JOUEUR"
 
     if not FollowToggle then
         if FollowConnection then FollowConnection:Disconnect() FollowConnection = nil end
@@ -1767,14 +916,7 @@ FollowToggleBtn.MouseButton1Click:Connect(function()
     if not TargetPlayer then
         FollowToggle = false
         FollowToggleBtn.BackgroundColor3 = Color3.fromRGB(200,50,50)
-        FollowToggleBtn.Text = (function()
-        local a={1116,1142,986,1155,1103,934,453,1025,934,453,999,1064,1142,934,1142,1103};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+        FollowToggleBtn.Text = "SUIVRE LE JOUEUR"
         return
     end
 
@@ -1785,36 +927,24 @@ FollowToggleBtn.MouseButton1Click:Connect(function()
             if FollowConnection then FollowConnection:Disconnect() FollowConnection = nil end
             FollowToggle = false
             FollowToggleBtn.BackgroundColor3 = Color3.fromRGB(200,50,50)
-            FollowToggleBtn.Text = (function()
-        local a={1116,1142,986,1155,1103,934,453,1025,934,453,999,1064,1142,934,1142,1103};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+            FollowToggleBtn.Text = "SUIVRE LE JOUEUR"
             return
         end
 
         local char = LocalPlayer.Character
-        local root = char and char:FindFirstChild("HumanoidRootPart(function()
-        local a={570,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1519,1480,1480,1545,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1545,1298,1519,1376,1350,1545,1103,1480,1480,1545,453,830,453,1129,1298,1519,1376,1350,1545,1077,1441,1298,1610,1350,1519,635,908,1389,1298,1519,1298,1324,1545,1350,1519,635,973,1558,1454,1298,1467,1480,1402,1337,1103,1480,1480,1545,1077,1298,1519,1545,167,453,453,453,453,453,453,453,453,1519,1480,1480,1545,635,908,947,1519,1298,1454,1350,453,830,453,1545,1298,1519,1376,1350,1545,1103,1480,1480,1545,635,908,947,1519,1298,1454,1350,453,583,453,908,947,1519,1298,1454,1350,635,1467,1350,1584,557,661,609,453,700,609,453,622,687,570,453,453,167,453,453,453,453,1350,1467,1337,570,167,1350,1467,1337,570,167,167,622,622,453,1025,1402,1532,1545,1350,453,1337,1350,1532,453,1415,1480,1558,1350,1558,1519,1532,453,1493,1480,1558,1519,453,1324,1350,453,1545,1493,453,1298,1558,453,1363,1337,1493,167,1441,1480,1324,1298,1441,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1129,1402,1545,1441,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", TeleportContent)
+        local root = char and char:FindFirstChild("HumanoidRootPart")
+        if not root then return end
+
+        local targetRoot = TargetPlayer.Character.HumanoidRootPart
+        root.CFrame = targetRoot.CFrame * CFrame.new(0, 3, -2)  
+    end)
+end)
+
+-- Liste des joueurs pour ce tp au fdp
+local TeleportPlayerTitle = Instance.new("TextLabel", TeleportContent)
 TeleportPlayerTitle.Size = UDim2.new(1,0,0,30)
 TeleportPlayerTitle.BackgroundTransparency = 1
-TeleportPlayerTitle.Text = (function()
-        local a={999,1480,1558,1350,1558,1519,1532,453,1337,1402,1532,1493,1480,1467,1402,1311,1441,1350,1532,453,557,1324,1441,1402,1506,1558,1350,453,1493,1480,1558,1519,453,1532,3066,1441,1350,1324,1545,1402,1480,1467,1467,1350,1519,570};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+TeleportPlayerTitle.Text = "Joueurs disponibles (clique pour sélectionner)"
 TeleportPlayerTitle.TextColor3 = Color3.fromRGB(180,180,255)
 TeleportPlayerTitle.Font = Enum.Font.GothamBold
 TeleportPlayerTitle.TextSize = 18
@@ -1825,57 +955,44 @@ TeleportSearchBox.Size = UDim2.new(1,-20,0,36)
 TeleportSearchBox.Position = UDim2.new(0,10,0,90)
 TeleportSearchBox.BackgroundColor3 = Color3.fromRGB(20,20,35)
 TeleportSearchBox.TextColor3 = Color3.new(1,1,1)
-TeleportSearchBox.PlaceholderText = (function()
-        local a={1103,1350,1324,1389,1350,1519,1324,1389,1350,1519,453,1558,1467,453,1415,1480,1558,1350,1558,1519,635,635,635};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
-TeleportSearchBox.Text = "(function()
-        local a={167,1129,1350,1441,1350,1493,1480,1519,1545,1116,1350,1298,1519,1324,1389,895,1480,1597,635,908,1441,1350,1298,1519,1129,1350,1597,1545,1064,1467,947,1480,1324,1558,1532,453,830,453,1363,1298,1441,1532,1350,167,1129,1350,1441,1350,1493,1480,1519,1545,1116,1350,1298,1519,1324,1389,895,1480,1597,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,1129,1350,1441,1350,1493,1480,1519,1545,1116,1350,1298,1519,1324,1389,895,1480,1597,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,739,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,453,1129,1350,1441,1350,1493,1480,1519,1545,1116,1350,1298,1519,1324,1389,895,1480,1597,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1116,1350,1298,1519,1324,1389,895,1480,1597,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,453,830,453,713,167,167,1441,1480,1324,1298,1441,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ScrollingFrame(function()
-        local a={609,453,1129,1350,1441,1350,1493,1480,1519,1545,908,1480,1467,1545,1350,1467,1545,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,622,687,661,609,674,609,622,674,726,661,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,674,661,609,661,609,674,713,661,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,1116,1324,1519,1480,1441,1441,895,1298,1519,1129,1389,1402,1324,1428,1467,1350,1532,1532,453,830,453,726,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,908,1298,1467,1571,1298,1532,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,661,609,661,609,661,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,453,830,453,726,167,167,1441,1480,1324,1298,1441,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,1025,1298,1610,1480,1558,1545,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIListLayout(function()
-        local a={609,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,1025,1298,1610,1480,1558,1545,635,1077,1298,1337,1337,1402,1467,1376,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,739,570,167,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,1025,1298,1610,1480,1558,1545,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,453,830,453,934,1467,1558,1454,635,1116,1480,1519,1545,1064,1519,1337,1350,1519,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,167,167,1441,1480,1324,1298,1441,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,947,1519,1298,1454,1350,1532,453,830,453,1636,1662,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,908,1519,1350,1298,1545,1350,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1025,1402,1467,1350,557,1493,1441,1298,1610,1350,1519,570,167,453,453,453,453,1402,1363,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,947,1519,1298,1454,1350,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,1545,1389,1350,1467,453,1519,1350,1545,1558,1519,1467,453,1350,1467,1337,167,453,453,453,453,1441,1480,1324,1298,1441,453,1363,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={570,167,453,453,453,453,1363,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,661,570,167,453,453,453,453,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,700,765,609,700,765,609,726,726,570,167,453,453,453,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1363,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,453,453,453,453,1363,635,1077,1298,1519,1350,1467,1545,453,830,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,1532,947,1519,1298,1454,1350,167,453,453,453,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,947,1519,1298,1454,1350,1532,1220,1493,1441,1298,1610,1350,1519,1246,453,830,453,1363,167,167,453,453,453,453,1363,635,1129,1350,1597,1545,453,830,453,1493,1441,1298,1610,1350,1519,635,1051,1298,1454,1350,167,453,453,453,453,1363,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,453,453,453,453,1363,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,1116,1350,1454,1402,1311,1480,1441,1337,167,453,453,453,453,1363,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,752,167,453,453,453,453,1363,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,453,830,453,934,1467,1558,1454,635,1129,1350,1597,1545,1181,882,1441,1402,1376,1467,1454,1350,1467,1545,635,1025,1350,1363,1545,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1493,1298,1337,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIPadding", f)
+TeleportSearchBox.PlaceholderText = "Rechercher un joueur..."
+TeleportSearchBox.Text = ""
+TeleportSearchBox.ClearTextOnFocus = false
+TeleportSearchBox.Font = Enum.Font.Gotham
+TeleportSearchBox.TextSize = 16
+Instance.new("UICorner", TeleportSearchBox).CornerRadius = UDim.new(0,6)
+TeleportSearchBox.LayoutOrder = 4
+
+local TeleportPlayersFrame = Instance.new("ScrollingFrame", TeleportContent)
+TeleportPlayersFrame.Size = UDim2.new(1,-20,1,-150)
+TeleportPlayersFrame.Position = UDim2.new(0,10,0,140)
+TeleportPlayersFrame.BackgroundTransparency = 1
+TeleportPlayersFrame.ScrollBarThickness = 5
+TeleportPlayersFrame.CanvasSize = UDim2.new(0,0,0,0)
+TeleportPlayersFrame.LayoutOrder = 5
+
+local TeleportPlayersLayout = Instance.new("UIListLayout", TeleportPlayersFrame)
+TeleportPlayersLayout.Padding = UDim.new(0,6)
+TeleportPlayersLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+local TeleportPlayerFrames = {}
+
+local function CreateTeleportPlayerLine(player)
+    if TeleportPlayerFrames[player] then return end
+    local f = Instance.new("TextButton")
+    f.Size = UDim2.new(1,0,0,40)
+    f.BackgroundColor3 = Color3.fromRGB(38,38,55)
+    Instance.new("UICorner",f).CornerRadius = UDim.new(0,8)
+    f.Parent = TeleportPlayersFrame
+    TeleportPlayerFrames[player] = f
+
+    f.Text = player.Name
+    f.TextColor3 = Color3.new(1,1,1)
+    f.Font = Enum.Font.GothamSemibold
+    f.TextSize = 17
+    f.TextXAlignment = Enum.TextXAlignment.Left
+
+    local pad = Instance.new("UIPadding", f)
     pad.PaddingLeft = UDim.new(0,15)
 
     f.MouseButton1Click:Connect(function()
@@ -1888,14 +1005,17 @@ TeleportSearchBox.Text = "(function()
 end
 
 local function RefreshTeleportList(filter)
-    filter = (filter or "(function()
-        local a={570,791,1441,1480,1584,1350,1519,557,570,167,453,453,453,453,1363,1480,1519,453,1493,609,453,1363,1519,1298,1454,1350,453,1402,1467,453,1493,1298,1402,1519,1532,557,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,947,1519,1298,1454,1350,1532,570,453,1337,1480,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1480,1545,453,1493,635,1077,1298,1519,1350,1467,1545,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1363,1519,1298,1454,1350,791,921,1350,1532,1545,1519,1480,1610,557,570,167,453,453,453,453,453,453,453,453,453,453,453,453,1129,1350,1441,1350,1493,1480,1519,1545,1077,1441,1298,1610,1350,1519,947,1519,1298,1454,1350,1532,1220,1493,1246,453,830,453,1467,1402,1441,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,1350,1467,1337,167,167,453,453,453,453,1441,1480,1324,1298,1441,453,1532,1480,1519,1545,1350,1337,453,830,453,1636,1662,167,453,453,453,453,1363,1480,1519,453,1272,609,453,1493,453,1402,1467,453,1402,1493,1298,1402,1519,1532,557,1077,1441,1298,1610,1350,1519,1532,791,960,1350,1545,1077,1441,1298,1610,1350,1519,1532,557,570,570,453,1337,1480,167,453,453,453,453,453,453,453,453,1402,1363,453,1493,453,1675,830,453,1025,1480,1324,1298,1441,1077,1441,1298,1610,1350,1519,453,1298,1467,1337,453,557,1363,1402,1441,1545,1350,1519,453,830,830,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()" or p.Name:lower():find(filter,1,true)) then
+    filter = (filter or ""):lower()
+    for p, frame in pairs(TeleportPlayerFrames) do
+        if not p.Parent then
+            frame:Destroy()
+            TeleportPlayerFrames[p] = nil
+        end
+    end
+
+    local sorted = {}
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LocalPlayer and (filter == "" or p.Name:lower():find(filter,1,true)) then
             table.insert(sorted, p)
         end
     end
@@ -1925,14 +1045,7 @@ Players.PlayerRemoving:Connect(function(p)
         FollowToggle = false
         if FollowConnection then FollowConnection:Disconnect() FollowConnection = nil end
         FollowToggleBtn.BackgroundColor3 = Color3.fromRGB(200,50,50)
-        FollowToggleBtn.Text = (function()
-        local a={1116,1142,986,1155,1103,934,453,1025,934,453,999,1064,1142,934,1142,1103};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+        FollowToggleBtn.Text = "SUIVRE LE JOUEUR"
     end
     task.delay(0.2, function()
         RefreshTeleportList(TeleportSearchBox.Text)
@@ -1944,32 +1057,17 @@ TeleportSearchBox:GetPropertyChangedSignal("Text"):Connect(function()
 end)
 
 -- Kill Menu
-local killf = Instance.new("Frame(function()
-        local a={609,453,1038,1298,1402,1467,908,1480,1467,1545,1350,1467,1545,570,167,1428,1402,1441,1441,1363,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,726,726,570,167,1428,1402,1441,1441,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,765,661,609,687,661,609,687,661,570,167,1428,1402,1441,1441,1363,635,1025,1298,1610,1480,1558,1545,1064,1519,1337,1350,1519,453,830,453,778,778,778,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1428,1402,1441,1441,1363,570,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,167,1441,1480,1324,1298,1441,453,1428,1402,1441,1441,1311,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton",killf)
+local killf = Instance.new("Frame", MainContent)
+killf.Size = UDim2.new(1,0,0,55)
+killf.BackgroundColor3 = Color3.fromRGB(80,20,20)
+killf.LayoutOrder = 999
+Instance.new("UICorner",killf).CornerRadius = UDim.new(0,8)
+
+local killb = Instance.new("TextButton",killf)
 killb.Size = UDim2.new(0.92,0,0.8,0)
 killb.Position = UDim2.new(0.04,0,0.1,0)
 killb.BackgroundColor3 = Color3.fromRGB(200,30,30)
-killb.Text = (function()
-        local a={1012,986,1025,1025,453,1038,934,1051,1142,453,557,1142,1467,1441,1480,1298,1337,453,882,1441,1441,570};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+killb.Text = "KILL MENU (Unload All)"
 killb.TextColor3 = Color3.new(1,1,1)
 killb.Font = Enum.Font.GothamBold
 killb.TextSize = 18
@@ -2005,88 +1103,50 @@ end)
 local AutoTitle = Instance.new("TextLabel", AutoPaffContent)
 AutoTitle.Size = UDim2.new(1,0,0,60)
 AutoTitle.BackgroundTransparency = 1
-AutoTitle.Text = (function()
-        local a={882,1142,1129,1064,1077,882,947,947};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+AutoTitle.Text = "AUTOPAFF"
 AutoTitle.TextColor3 = Color3.fromRGB(220, 180, 255)
 AutoTitle.Font = Enum.Font.GothamBlack
 AutoTitle.TextSize = 48
 
-local AutoToggle = Instance.new("TextButton(function()
-        local a={609,453,882,1558,1545,1480,1077,1298,1363,1363,908,1480,1467,1545,1350,1467,1545,570,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,752,609,661,609,661,609,674,661,661,570,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,674,726,609,661,609,661,635,674,609,661,570,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,882,1558,1545,1480,1077,1298,1363,1363,635,934,1467,1298,1311,1441,1350,1337,453,1298,1467,1337,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,765,661,609,687,726,726,609,674,687,661,570,453,1480,1519,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,765,661,609,765,661,570,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,1129,1350,1597,1545,453,830,453,882,1558,1545,1480,1077,1298,1363,1363,635,934,1467,1298,1311,1441,1350,1337,453,1298,1467,1337,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ON(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()OFF(function()
-        local a={167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1467,1350,1584,557,674,609,674,609,674,570,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1441,1298,1324,1428,167,882,1558,1545,1480,1129,1480,1376,1376,1441,1350,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,739,661,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner", AutoToggle).CornerRadius = UDim.new(0,25)
+local AutoToggle = Instance.new("TextButton", AutoPaffContent)
+AutoToggle.Size = UDim2.new(0.7,0,0,100)
+AutoToggle.Position = UDim2.new(0.15,0,0.1,0)
+AutoToggle.BackgroundColor3 = AutoPaff.Enabled and Color3.fromRGB(80,255,120) or Color3.fromRGB(255,80,80)
+AutoToggle.Text = AutoPaff.Enabled and "ON" or "OFF"
+AutoToggle.TextColor3 = Color3.new(1,1,1)
+AutoToggle.Font = Enum.Font.GothamBlack
+AutoToggle.TextSize = 60
+Instance.new("UICorner", AutoToggle).CornerRadius = UDim.new(0,25)
 
 AutoToggle.MouseButton1Click:Connect(function()
     AutoPaff.Enabled = not AutoPaff.Enabled
     AutoToggle.BackgroundColor3 = AutoPaff.Enabled and Color3.fromRGB(80,255,120) or Color3.fromRGB(255,80,80)
-    AutoToggle.Text = AutoPaff.Enabled and "ON(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()OFF(function()
-        local a={167,1350,1467,1337,570,167,167,1441,1480,1324,1298,1441,453,1324,1493,1532,947,1519,1298,1454,1350,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={609,453,882,1558,1545,1480,1077,1298,1363,1363,908,1480,1467,1545,1350,1467,1545,570,167,1324,1493,1532,947,1519,1298,1454,1350,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,765,609,661,609,661,609,739,661,570,167,1324,1493,1532,947,1519,1298,1454,1350,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,674,609,661,609,661,635,713,609,661,570,167,1324,1493,1532,947,1519,1298,1454,1350,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,453,830,453,674,167,167,1441,1480,1324,1298,1441,453,1324,1493,1532,1025,1311,1441,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel", cpsFrame)
+    AutoToggle.Text = AutoPaff.Enabled and "ON" or "OFF"
+end)
+
+local cpsFrame = Instance.new("Frame", AutoPaffContent)
+cpsFrame.Size = UDim2.new(0.8,0,0,60)
+cpsFrame.Position = UDim2.new(0.1,0,0.4,0)
+cpsFrame.BackgroundTransparency = 1
+
+local cpsLbl = Instance.new("TextLabel", cpsFrame)
 cpsLbl.Size = UDim2.new(0.35,0,1,0)
 cpsLbl.BackgroundTransparency = 1
-cpsLbl.Text = (function()
-        local a={908,1077,1116};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+cpsLbl.Text = "CPS"
 cpsLbl.TextColor3 = Color3.fromRGB(220,220,255)
 cpsLbl.Font = Enum.Font.GothamBold
 cpsLbl.TextSize = 32
 
-local cpsInput = Instance.new("TextBox(function()
-        local a={609,453,1324,1493,1532,947,1519,1298,1454,1350,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,1116,1402,1623,1350,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,739,609,661,609,674,609,661,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,1077,1480,1532,1402,1545,1402,1480,1467,453,830,453,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,713,609,661,609,661,609,661,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,713,661,609,713,661,609,739,661,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,1129,1350,1597,1545,453,830,453,1545,1480,1532,1545,1519,1402,1467,1376,557,882,1558,1545,1480,1077,1298,1363,1363,635,908,1077,1116,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,687,726,726,609,687,726,726,570,167,1324,1493,1532,986,1467,1493,1558,1545,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,167,1324,1493,1532,986,1467,1493,1558,1545,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,713,661,167,1324,1493,1532,986,1467,1493,1558,1545,635,908,1441,1350,1298,1519,1129,1350,1597,1545,1064,1467,947,1480,1324,1558,1532,453,830,453,1363,1298,1441,1532,1350,167,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner", cpsInput).CornerRadius = UDim.new(0,15)
+local cpsInput = Instance.new("TextBox", cpsFrame)
+cpsInput.Size = UDim2.new(0.6,0,1,0)
+cpsInput.Position = UDim2.new(0.4,0,0,0)
+cpsInput.BackgroundColor3 = Color3.fromRGB(40,40,60)
+cpsInput.Text = tostring(AutoPaff.CPS)
+cpsInput.TextColor3 = Color3.fromRGB(255,255,255)
+cpsInput.Font = Enum.Font.Gotham
+cpsInput.TextSize = 40
+cpsInput.ClearTextOnFocus = false
+Instance.new("UICorner", cpsInput).CornerRadius = UDim.new(0,15)
 
 cpsInput.FocusLost:Connect(function()
     local n = tonumber(cpsInput.Text)
@@ -2101,14 +1161,7 @@ local infoTxt = Instance.new("TextLabel", AutoPaffContent)
 infoTxt.Size = UDim2.new(0.9,0,0,100)
 infoTxt.Position = UDim2.new(0.05,0,0.6,0)
 infoTxt.BackgroundTransparency = 1
-infoTxt.Text = (function()
-        local a={947,739,453,830,453,1493,1480,1558,1519,453,1298,1324,1545,1402,1571,3066,1350,453,1233,1467,1454,1350,1545,453,713,661,661,453,1493,1480,1558,1519,453,1376,1298,1376,1467,1350,1519,453,1545,1480,1558,1545,453,1441,1350,453,1545,1350,1454,1493,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+infoTxt.Text = "F6 = pour activée \nmet 400 pour gagner tout le temps"
 infoTxt.TextColor3 = Color3.fromRGB(200,200,220)
 infoTxt.Font = Enum.Font.Gotham
 infoTxt.TextSize = 20
@@ -2128,15 +1181,6 @@ UserInputService.InputBegan:Connect(function(input, gp)
     if input.KeyCode == AutoPaff.ToggleKey then
         AutoPaff.Enabled = not AutoPaff.Enabled
         AutoToggle.BackgroundColor3 = AutoPaff.Enabled and Color3.fromRGB(80,255,120) or Color3.fromRGB(255,80,80)
-        AutoToggle.Text = AutoPaff.Enabled and "ON(function()
-        local a={453,1480,1519,453};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()OFF"
+        AutoToggle.Text = AutoPaff.Enabled and "ON" or "OFF"
     end
 end)
-end;
-_xrhytd7ao();
